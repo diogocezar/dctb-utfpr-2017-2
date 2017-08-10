@@ -5,7 +5,7 @@
   * Problema: faça um programa que receba dois valores: a e b, além de uma opção de operação: soma, subtração, multiplicação, divisão. Usando o comando switch e do...while faça um programa que realize operações enquanto a opção de operação for diferente de 0;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	int num_a = 10;

@@ -5,7 +5,7 @@
   * Problema: faça um programa que receba a idade de uma pessoa, e mostre a idade digitada na tela;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	int age;

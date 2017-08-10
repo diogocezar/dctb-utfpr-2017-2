@@ -5,7 +5,7 @@
   * Problema: faça um programa que receba dois nomes e duas idades, e mostre o nome da pessoa mais jovem;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	char name_1[50];

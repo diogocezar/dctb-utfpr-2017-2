@@ -5,7 +5,7 @@
   * Problema: faça um programa que receba um salário como entrada, uma porcentagem de aumento e mostre o novo salário;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	double salary;

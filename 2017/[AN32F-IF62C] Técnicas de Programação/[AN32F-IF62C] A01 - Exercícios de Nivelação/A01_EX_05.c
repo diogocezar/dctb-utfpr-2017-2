@@ -5,7 +5,7 @@
   * Problema: faça um programa para geração de médias dinâmico. o usuário poderá informar n (no máximo 100) números do tipo float. O programa deverá ter um menu para perguntar se o usuário deseja adicionar um novo número. Ao terminar de inserir, o programa deve calcular a média entre os números digitados;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	int values[100];

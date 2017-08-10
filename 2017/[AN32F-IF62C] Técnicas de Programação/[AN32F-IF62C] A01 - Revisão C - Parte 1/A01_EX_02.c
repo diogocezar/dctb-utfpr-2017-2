@@ -5,7 +5,7 @@
   * Problema: faça um programa que receba dois números: a e b; utilizando operadores de incremento exiba o número b, a vezes (utilize for);
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	int a;

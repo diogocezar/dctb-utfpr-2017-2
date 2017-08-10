@@ -5,7 +5,7 @@
   * Problema: faça um programa que some um número recebido por ele mesmo 10 vezes, utilizando operadores aritméticos de atribuição (utilize while);
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	int a;

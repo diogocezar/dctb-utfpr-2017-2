@@ -5,7 +5,7 @@
   * Problema: escreva um programa em c, que imprima uma mensagem na tela: “Olá mundo!”;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	printf("Olá mundo!\n");

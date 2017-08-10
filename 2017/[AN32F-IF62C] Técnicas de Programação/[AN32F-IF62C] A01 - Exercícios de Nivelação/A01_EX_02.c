@@ -5,7 +5,7 @@
   * Problema: escreva um programa que imprima na tela: um char, um número inteiro, um float, um double, e todos juntos;
   */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
 	char myChar = 'D';
