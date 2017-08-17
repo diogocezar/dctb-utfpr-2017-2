@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Exemplos CSS3</title>
+	<link rel="stylesheet" href="">
+	<meta name="keywords"            content="">
+	<meta name="viewport"            content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description"         content="">
+	<meta name="publisher"           content="">
+	<meta name="author"              content="">
+	<meta name="robots"              content="index,follow">
+	<!-- OG -->
+	<meta property="og:url"          content="">
+	<meta property="og:title"        content="n">
+	<meta property="og:site_name"    content="">
+	<meta property="og:description"  content="">
+	<meta property="og:image"        content="">
+	<!-- Twitter -->
+	<meta name="twitter:card"        content="summary_large_image">
+	<meta name="twitter:site"        content="">
+	<meta name="twitter:title"       content="">
+	<meta name="twitter:url"         content="">
+	<meta name="twitter:image:src"   content="">
+	<meta name="twitter:description" content="">
+	<!-- Google + -->
+	<meta itemprop="name"            content="">
+	<meta itemprop="description"     content="">
+</head>
+<body>
+	<!-- Estilos -->
+	<style>
+		body{
+			font-size: 16px;
+		}
+
+		.default-section{
+			position: relative;
+			float: left;
+			width:  100%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			border: 1px solid gray;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+
+		.default-section h2{
+			margin: 0;
+			padding: 0;
+		}
+
+		.default-section div{
+			background-color: gray;
+			margin-top: 30px;
+			width: 150px;
+			height: 150px;
+			font-size: 0.9em;
+			text-align: center;
+			line-height: 150px;
+			cursor: pointer;
+		}
+
+		#hover div:hover{
+			background-color: black;
+			color: #fff;
+		}
+
+		#gradient div{
+			background: red;
+			background: -webkit-linear-gradient(red, yellow);
+			background: -o-linear-gradient(red, yellow);
+			background: -moz-linear-gradient(red, yellow);
+			background: linear-gradient(red, yellow);
+		}
+
+		#transform div{
+			transform: scale(0.8) skew(5deg) rotate(20deg);
+			-webkit-transform: scale(0.8) skew(5deg) rotate(20deg);
+			-moz-transform: scale(0.8) skew(5deg) rotate(20deg);
+			-o-transform: scale(0.8) skew(5deg) rotate(20deg);
+			z-index: -1;
+		}
+
+		#transition div{
+			transition: all 3s linear;
+			-webkit-transition: all 3s linear;
+		}
+
+		#transition div:hover{
+			background-color: #000;
+			color: #fff;
+			transform: scale(0.8) skew(5deg) rotate(20deg);
+			-webkit-transform: scale(0.8) skew(5deg) rotate(20deg);
+			-moz-transform: scale(0.8) skew(5deg) rotate(20deg);
+			-o-transform: scale(0.8) skew(5deg) rotate(20deg);
+		}
+
+		#animation div > span{
+			height: 60px;
+			width: 60px;
+			background-color: blue;
+			position: absolute;
+			z-index: 999;
+			border-radius: 50%;
+			margin-top: 10px;
+		}
+
+		@-webkit-keyframes ping{
+			from {
+				-webkit-transform:translateY(0);
+			}
+			to {
+				-webkit-transform:translateY(50px);
+			}
+		}
+
+
+		#animation div:hover > span{
+			-webkit-animation-name: ping;
+			-webkit-animation-duration: 0.5s;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-direction: alternate;
+		}
+
+	</style>
+	<!-- Cabeçalho -->
+	<header>
+		<h1>Exemplos de Utilização de CSS3</h1>
+	</header>
+	<!-- Seção 1 - Hover -->
+	<section id="hover" class="default-section">
+		<h2>Exemplo da utilização de um houver</h2>
+		<div>
+			Passe o mouse aqui.
+		</div>
+	</section>
+	<!-- Seção 2 - Gradiente -->
+	<section id="gradient" class="default-section">
+		<h2>Exemplo da utilização de um gradiente</h2>
+		<div>
+			Veja aqui o gradiente.
+		</div>
+	</section>
+	<!-- Seção 3 - Transform -->
+	<section id="transform" class="default-section">
+		<h2>Exemplo da utilização de um transform</h2>
+		<div>
+			Veja aqui o transform.
+		</div>
+	</section>
+	<!-- Seção 4 - Transition -->
+	<section id="transition" class="default-section">
+		<h2>Exemplo da utilização de uma transition</h2>
+		<div>
+			Veja aqui o transition.
+		</div>
+	</section>
+	<!-- Seção 5 - Animation -->
+	<section id="animation" class="default-section">
+		<h2>Exemplo da utilização de uma animation</h2>
+		<div>
+			<span></span>
+			Veja aqui a animation.
+		</div>
+	</section>
+	<script id="__bs_script__">document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));</script>
+</body>
+</html>
