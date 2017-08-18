@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Exemplo de Ajax com JQuery</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<style>
+		html{
+			font-size: 14px;
+			font-family: sans-serif;
+		}
+		.container{
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			width: 1170px;
+		}
+		h2{
+			font-size: 3em;
+			text-transform: uppercase;
+			width: 100%;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+	</style>
+	<div class="container">
+		<h2>Exemplo de requisição Ajax</h2>
+		<button id="btn-clear">Limpar</button>
+		<button id="btn-load">Carregar Novamente</button>
+		<div id="loader"></div>
+	</div>
+	<script language="JavaScript" type="text/javascript" src="./js/jquery.js"></script>
+	<script>
+		Ajax = {
+			init: function(){
+				Ajax.load();
+				Ajax.setButtons();
+			},
+			setButtons: function(){
+				$("#btn-clear").on('click', function(){
+					Ajax.clear();
+				});
+				$("#btn-load").on('click', function(){
+					Ajax.load();
+				});
+			},
+			clear: function(){
+				$("#loader").empty();
+			},
+			load: function(){
+				var action = 'https://jsonplaceholder.typicode.com/posts';
+				$.ajax({
+					type  : "GET",
+					url   : action,
+					success: function (result){
+						Ajax.printResult(result);
+					},
+				});
+			},
+			printResult: function(result){
+				var str = [];
+				for(var i=0; i<result.length; i++){
+					console.log(result[i]);
+					str.push('<h3>' + result[i].title + '</h3>');
+					str.push('<p>' + result[i].body + '</p>');
+				}
+				$("#loader").empty().html(str.join(''));
+			}
+		};
+		$(document).ready(function(){
+			Ajax.init();
+		});
+	</script>
+</body>
+</html>

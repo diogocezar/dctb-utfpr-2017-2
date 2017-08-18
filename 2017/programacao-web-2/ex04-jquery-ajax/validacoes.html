@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Exemplo de Validação de Formulários</title>
+</head>
+<body>
+	<style>
+		html{
+			font-size: 14px;
+			font-family: sans-serif;
+		}
+		.container{
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			width: 1170px;
+		}
+		h2{
+			font-size: 3em;
+			text-transform: uppercase;
+			width: 100%;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		form{
+			text-align: center;
+		}
+		form input, form select{
+			width: 50%;
+			padding: 20px;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			color: #000;
+			display: inline-block;
+		}
+		textarea{
+			width: 50%;
+			padding: 20px;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			color: #000;
+			position: relative;
+			left: 50%;
+			margin-left: -25%;
+			margin-top: 100px;
+		}
+		form button{
+			width: 50%;
+			padding: 20px;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			color: #000;
+			border: none;
+			background-color: #ddd;
+			cursor: pointer;
+		}
+		.error{
+			color:  red;
+			border-color: red;
+		}
+	</style>
+	<div class="container">
+		<h2>Exemplo de Formulário de Validação</h2>
+		<form data-validate="true">
+			<input type="text" id="name" data-required="true" placeHolder="name"/>
+			<input type="text" id="email" data-email="true" placeHolder="email"/>
+			<select id="type" data-select="true">
+				<option selected="selected" value="0">Selecione um tipo</option>
+				<option value="ios">IOS</option>
+				<option value="android">Android</option>
+			</select>
+			<button id="send">Enviar</button>
+		</form>
+		<textarea id="console" placeHolder="console"></textarea>
+	</div>
+	<script language="JavaScript" type="text/javascript" src="./js/jquery.js"></script>
+	<script>
+		Shared = {
+			__is_empty: function(val){
+				return (val == "" || val == null || val == undefined);
+			},
+			__ajax: function(config, callBack){
+				if(Shared.__is_empty(config.action))
+					return;
+				var action     = config.action;
+				var data       = config.data || null;
+				$.ajax({
+				    type  : "POST",
+				    url   : action,
+				    data  : data,
+				    success: function (result) {
+				    	if(!Shared.__is_empty(callBack)){
+				    		callBack(result);
+				    	}
+				    },
+				});
+			}
+		};
+		Validation = {
+			error   : null,
+			focusEl : null,
+			config  : {
+				errorClass : "error"
+			},
+			check: function(callBack){
+				Validation.error = false;
+				$(document).find("form").each(function(){
+					var obj = $(this);
+					if(obj.data('validate') == true){
+						Validation.focusEl = null;
+						obj.find("input, textarea, select").each(function(){
+							var el = $(this);
+							Validation.reset(el);
+							if(el.data('required') == true)
+								Validation.validate('required', el);
+							if(el.data('email') == true)
+								Validation.validate('email', el);
+							if(el.data('select') == true)
+								Validation.validate('select', el);
+						});
+						if(Validation.error == false){
+							if(!Shared.__is_empty(callBack)){
+			    				callBack();
+							}
+						}
+						else{
+							Validation.focusEl.focus();
+						}
+					}
+				});
+			},
+			validate: function(type, field){
+				switch(type){
+					case "required" :
+						if(Shared.__is_empty(field.val()))
+							Validation.setError(field);
+					break;
+					case "email" :
+						var re = /[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}/igm;
+						if(!re.test(field.val()) || Shared.__is_empty(field.val()))
+							Validation.setError(field);
+					break;
+					case "select" :
+						var name = field.attr("id");
+						if($("#" + name + " option:selected").val() == "0")
+							Validation.setError(field);
+					break;
+				}
+			},
+			reset: function(field){
+				field.removeClass(Validation.config.errorClass);
+			},
+			setError: function(field){
+				if(Validation.focusEl == null) Validation.focusEl = field;
+				field.addClass(Validation.config.errorClass);
+				Validation.error = true;
+			}
+		};
+		Form = {
+			init: function(){
+				Form.setButtons();
+			},
+			setButtons: function(){
+				$("#send").on('click', function(e){
+					e.preventDefault();
+					Form.send();
+				});
+			},
+			send: function(){
+				Validation.check(function(){
+					var name  = $("#name").val();
+					var email = $("#email").val();
+					var type  = $("#type").val();
+
+					var data = {
+						'name'  : name,
+						'email' : email,
+						'type'  : type
+					};
+
+					var config = {
+						'action' : 'post.php',
+						'data'   : data
+					}
+
+					Shared.__ajax(config, function(result){
+						//result = $.parseJSON(result);
+						$("#console").val(result)
+					});
+				});
+			}
+		};
+		$(document).ready(function(){
+			Form.init();
+		});
+	</script>
+</body>
+</html>
