@@ -13,7 +13,7 @@
 	<meta name="robots"              content="index,follow">
 	<!-- OG -->
 	<meta property="og:url"          content="">
-	<meta property="og:title"        content="n">
+	<meta property="og:title"        content="">
 	<meta property="og:site_name"    content="">
 	<meta property="og:description"  content="">
 	<meta property="og:image"        content="">
@@ -32,6 +32,9 @@
 <body>
 	<!-- Estilos -->
 	<style>
+		html{
+			font-size: 9px;
+		}
 		body{
 			font-size: 14px;
 			margin: 0;
@@ -79,10 +82,10 @@
 		}
 
 		#transform div{
-			transform: scale(0.8) skew(5deg) rotate(20deg);
 			-webkit-transform: scale(0.8) skew(5deg) rotate(20deg);
 			-moz-transform: scale(0.8) skew(5deg) rotate(20deg);
 			-o-transform: scale(0.8) skew(5deg) rotate(20deg);
+			transform: scale(0.8) skew(5deg) rotate(20deg);
 			z-index: -1;
 		}
 
@@ -119,10 +122,10 @@
 			}
 		}
 
-		#animation div:hover > span{
+		#animation div:hover span{
 			-webkit-animation-name: ping;
 			-webkit-animation-duration: 0.5s;
-			-webkit-animation-timing-function: linear;
+			-webkit-animation-timing-function: ease-in-out;
 			-webkit-animation-iteration-count: infinite;
 			-webkit-animation-direction: alternate;
 		}
