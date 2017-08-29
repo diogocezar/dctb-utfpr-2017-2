@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Criando um Plugin para JQuery</title>
+
+</head>
+<body>
+
+<h1 class="transform-blue">Meu elemento a ser transformado</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ab, autem temporibus eaque explicabo? Dolorum, dolor, ipsam! Quis suscipit odit consequatur a distinctio aliquam, in, quidem velit repellendus voluptatem, provident!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ab, autem temporibus eaque explicabo? Dolorum, dolor, ipsam! Quis suscipit odit consequatur a distinctio aliquam, in, quidem velit repellendus voluptatem, provident!</p>
+
+<h2 class="transform-green">Outro elemento a ser transformado</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ab, autem temporibus eaque explicabo? Dolorum, dolor, ipsam! Quis suscipit odit consequatur a distinctio aliquam, in, quidem velit repellendus voluptatem, provident!</p>
+<script language="JavaScript" type="text/javascript" src="./js/jquery.js"></script>
+<script>
+	(function ($){
+	    $.fn.MeuPlugin = function(config) {
+	        var config = $.extend({
+	            color     : 'red',
+	        }, config);
+
+	        return this.each(function(){
+	        	$(this).css('color', config.color);
+	        });
+	    };
+	}($));
+
+	$(".transform-blue").MeuPlugin({color: 'blue'});
+	$(".transform-green").MeuPlugin({color: 'green'});
+	$("p").MeuPlugin();
+</script>
+</body>
+</html>
