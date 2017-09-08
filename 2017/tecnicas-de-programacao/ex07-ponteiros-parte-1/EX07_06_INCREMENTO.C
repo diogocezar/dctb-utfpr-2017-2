@@ -28,6 +28,7 @@ int main(){
 
     // Incrementa o próprio ponteiro
 
+    //*(pt++);
     pt++;
 
 	printf("Endereço de \t\t %p\n", pt);
