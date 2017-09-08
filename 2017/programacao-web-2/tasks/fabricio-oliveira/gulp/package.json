@@ -1,0 +1,21 @@
+{
+  "name": "fabricio-oliveira-gulp",
+  "version": "1.0.0",
+  "description": "Exercicio de Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "exercicio"
+  ],
+  "author": "Fabricio Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-watch": "^4.3.11"
+  }
+}
