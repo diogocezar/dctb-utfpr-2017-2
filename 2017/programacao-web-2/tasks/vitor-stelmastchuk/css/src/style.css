@@ -1,0 +1,135 @@
+body {
+	font-family: tahoma, helvetica, arial, sans-serif;
+	text-align: center;
+	color: #6f6f6f;
+}
+  
+html, body, #wrapper, h1, #nav, #nav ul, #nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body, th, td {
+	font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+	margin: 16px auto;
+	text-align: left;
+	position: relative;
+}
+
+ h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 22px;
+}
+
+
+ p {
+	font-size: 20px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+h3 {
+	padding: 4px 0 0 0;
+}
+
+p {
+	margin: 1em 0;
+	padding: 0;
+}
+
+.block {
+	display: block;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+* html .clear {
+	margin-top: -5px;
+	margin-bottom: -4px;
+}
+
+.left {
+	float: left;
+	margin: 1px 12px 0px 0px;
+}
+
+.softright {
+	text-align: right;
+}
+
+
+
+body {
+	background: #373839;
+	padding-bottom: 12px;
+}
+
+
+
+h1 {
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
+#body { width: 100%; }
+
+#body { background: #ed8601 url(https://images5.alphacoders.com/559/559129.jpg); }
+
+
+#body .inner {
+	color: white;
+	padding: 18px 20px;
+}
+
+#body h2 {
+	margin-top: 3px;
+	text-indent: -3px;
+}
+
+* html #body h2 {
+	margin-top: 21px;
+	marg\in-top: 3px;
+}
+
+#body p {
+	margin: 1em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
