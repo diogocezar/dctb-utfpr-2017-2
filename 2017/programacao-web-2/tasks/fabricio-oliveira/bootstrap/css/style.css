@@ -1,0 +1,10 @@
+.titulo{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.enviar-bt{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
