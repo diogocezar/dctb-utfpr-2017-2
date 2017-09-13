@@ -1,0 +1,14 @@
+{
+  "name": "aprendendo",
+  "version": "1.0.0",
+  "description": "Aprendendo Gulp",
+  "author": "roberto",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
