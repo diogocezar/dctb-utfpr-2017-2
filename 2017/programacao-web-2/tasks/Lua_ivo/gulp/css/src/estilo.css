@@ -1,0 +1,483 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	#divMenu{
+	
+	}
+	body{
+		background-color: #b0bea9;
+	}
+	li{
+		display: inline;
+	}
+	h2{
+		font-family: 'Droid Serif', serif;
+	}
+	h1{
+		font-family: 'Raleway', serif;
+		font-weight:  800;
+		font-size: 76;
+	}
+	h3{
+		font-family: 'Raleway', serif;
+		font-weight: bold;
+	}
+.main-nav {
+  background: darkslateblue;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu {
+  transition: all 0.5s;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu__item {
+  margin: 0 15px;
+}
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-bar {
+  width: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.uno, .dos, .tres {
+  width: 100%;
+  background: white;
+  height: 3px;
+  transition: all 0.5s;
+}
+.dos {
+  margin: 5px 0;
+}
+/*animacion*/
+
+.mostrar  .uno {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.mostrar .dos {
+  opacity: 0;
+}
+.mostrar .tres {
+  transform: rotate(-45deg) translate(6px, -7px);
+}
+.mostrar .menu{
+  visibility: visible;
+  opacity: 1;
+}
+	#divcab a{
+		font-family: 'Raleway', serif;
+		font-size: 30px;
+		text-decoration:none;
+		margin: 25px;
+	}
+
+	#divDados{
+		position: relative;
+		top: 76px;
+		text-align: center;
+		width: 100%;
+		background-color: #b0bea9;
+	}
+	#divDados .center{
+		width: 40%;
+		top: 76px;
+		left: 30%;
+		margin: 0 auto;
+	}
+	#empresa::before{
+		content: url(assets/detalhe_1.png);
+    	
+	}
+	#empresa{
+		top: 200px;
+		padding-top: 50px
+
+	}
+	#divDados h2 {
+    	margin: 20px 0 0 0;
+    	color: white;
+    	font-size: 50px;
+	}
+	#divDados h1 {
+   		margin: 0 0 0 0;
+   		color: #223843;
+   		font-size: 100px;
+
+	}	
+	#message{
+		color: #223843;
+		width: 60%;
+		margin: 0 0% 60px 20%;
+		font-size: 20px;
+		letter-spacing:1px;
+	}
+	#divDados .center::after{
+		content: url(assets/detalhe_1.png);
+	}
+	#blocks{
+		top: 300px;
+		width: 100%;
+		margin: 0 auto;
+		z-index:9999;
+		margin: 0 0 90px 0;
+	}
+	#blocks  .block{
+		width: 330px;
+		height: 200px;
+		display: inline-block;
+		background-color: #223843;
+		margin: 50px 8px 15px 8px;
+		z-index:9999;
+		padding: 20px;
+	}
+	.block h3{
+		font-size: 28px;
+		color: white;
+	}
+	.block {
+		
+		color: white;
+		letter-spacing:3px;
+	}
+	#sublinhado{
+		font-size: 40px;
+		color: #b2bd7e;
+		font-weight: bold;
+		margin-bottom: 30px;
+		letter-spacing:0px;
+	}
+	
+	
+
+	#contact{
+		position: relative;
+		background: url(assets/bg_01.png);
+		width: 100%;
+		height: 719px;
+		text-align: center;
+	}
+	#contact h1{
+		font-size: 60px;
+		margin:  30px 20% 0 20%;
+		color: white;
+	}
+	#contact p{
+		font-size: 80px;
+		color: #b2bd7e;
+	
+		font-weight: bold;
+	}
+	#contact #message p{
+		font-size: 20px;
+		font-weight: lighter;
+	}
+	#contact #message{
+		width: 30%;
+		margin: 50px 0 60px 35%;
+	}
+	a:link{ 
+ 		text-decoration:none; 
+	} 
+	#btn-1{
+		position: relative;
+		width: 200px;
+		margin: 25px auto;
+		border: none;
+		background-color: #b2bd7e;
+		padding: 15px;
+		cursor: pointer;
+		border-radius: 50px 50px 50px 50px;
+		font-size: 24px;
+		font-weight: bold;
+		font-family: 'Raleway', serif;
+		
+	}
+	
+
+
+	#divemp{
+		position: relative;
+		top: 50px;
+		text-align: center;
+		width: 100%;
+		background-color: #b0bea9;
+		padding-bottom: 60px;
+	}
+	#divemp .center{
+		width: 40%;
+		top: 40px;
+		left: 30%;
+		margin: 0 auto;
+	}
+	#products{
+		top: 100px;
+		border: 10px solid transparent;
+
+	}
+	#divemp h2 {
+    	margin: 25px 0 0 0;
+    	color: #223843;
+    	font-size: 50px;
+	}
+	#divemp h1 {
+   		margin: 0 0 30px 0;
+   		font-size: 100px;
+   		color: white;
+
+	}	
+	#divemp h3 {
+   		margin: 0px 0 10px 0;
+   		font-size: 24px;
+   		color: #b2bd7e;
+
+	}
+	#divemp #message{
+		color: #223843;
+		width: 60%;
+		margin: 0 0 60px 20%;
+		font-size: 16px;
+
+	}
+	#divemp .center::after{
+		content: url(assets/detalhe_1.png);
+	}
+	#divemp #blocks{
+		top: 300px;
+		width: 80%;
+		margin: 60px auto;
+		z-index:9999;
+
+	}
+	#divemp #blocks  .block{
+		width: 300px;
+		height: 400px;
+		display: inline-block;
+		background-color:white;
+		margin: 8px 10px 8px 10px;
+		padding: 20px;
+		z-index:9999;
+		font-weight: normal;
+	}
+	#divemp #blocks  .block h3{
+			
+		font-weight: 700;
+	}
+	#divemp #blocks  .block p{
+		color: black;	
+		font-size: 16px;
+		letter-spacing:0px;
+		line-height: 130%;
+	}
+	#divemp #blocks #btn-1{
+		background-color: white;
+		color: #b2bd7e;
+		border-style: solid;
+		border-color: #b2bd7e;
+		padding: 12px;
+		font-weight: 700;
+	}
+	#Produto1::before{
+		content: url(assets/thumbs/01-verde-ubatuba.jpg);
+	}
+	#Produto2::before{
+		content: url(assets/thumbs/02-sao-gabriel.jpg);
+	}
+	#Produto3::before{
+		content: url(assets/thumbs/03-marrom-absoluto.jpg);
+	}
+	#Produto4::before{
+		content: url(assets/thumbs/04-ocre-itabira.jpg);
+	}
+	#Produto5::before{
+		content: url(assets/thumbs/05-branco-dallas.jpg);
+	}
+	#Produto6::before{
+		content: url(assets/thumbs/06-travertino.jpg);
+	}
+
+
+
+
+	#divarticle{		
+		text-align: center;
+		width: 100%;
+		background-color: white;
+	}
+	#divtitle{
+		padding-top: 120px;
+	}
+	#divarticle h2 {
+    	color: #b0bea9;
+    	font-size: 50px;
+	}
+	#divarticle h1 {
+   		margin: 0 0 60px 0;
+   		color: #223843;
+   		font-size: 110px;
+
+	}
+	#divarticle h3 {
+   		margin: 20px 0 15px 0;
+   		color: #223843;
+   		font-size: 30px;
+
+	}
+	#divarticle #divnews::after{
+		content: url(assets/detalhe_1.png);
+	}
+	#divartigos {
+		
+		width: 450px;
+		height: 220px;
+		display: inline-block;
+		background-color:white;
+		margin: 50px 15px 15px 15px;
+		padding-top: 20px;
+	}
+	#divartigos article{
+		margin-top: 20px;
+	}
+
+	#divcontact{
+		padding-top: 30px;
+		position: relative;
+		background: url(assets/bg_02.png);
+		width: 100%
+
+	}
+	#divcontact h1 {
+   		line-height: 1%;
+   		text-align: center;
+   		color: white;
+   		font-size: 100px;
+   		width: 500px;
+   		margin: 0 auto;
+	}
+	#divcontact p{
+		
+		font-size: 80px;
+		color: #b2bd7e;
+		text-align: center;
+		font-weight: bold;
+
+	}
+	form {
+		padding-top: 100px;
+		text-align: center;
+	}
+	input{
+		width: 35%;
+		margin: 5px auto;
+		border: none;
+		background-color: white;
+		padding: 10px;
+		border-radius: 50px 50px 50px 50px;
+		font-size: 24px;
+		font-weight: 900;
+		font-family: 'Raleway', serif;
+	}
+	input::-webkit-input-placeholder {  
+   		color: #223843; 
+	}
+	textarea {
+		width: 36%;
+		height: 140px;
+		border-radius: 25px 25px 25px 25px;
+		font-size: 24px;
+		font-family: 'Raleway', serif;
+		font-weight: 900;
+		margin: 5px auto;
+		padding-left: 10px;
+		color: #223843;
+	}
+	#btenviar{
+		position: relative;
+		width: 200px;
+		margin: 25px auto;
+		border: none;
+		background-color: #b2bd7e;
+		padding: 15px;
+		cursor: pointer;
+		border-radius: 50px 50px 50px 50px;
+		font-size: 24px;
+		
+	}
+
+
+
+	#divfooter h4{
+		position: relative;
+		font-size: 22px;
+		margin: 0 0 60px 0;
+		color: #223843;
+	}
+	#divfooter:after{
+		content: url(assets/detalhe_1.png);
+	}
+
+	footer {
+		position: relative;
+		padding-top: 60px;
+		text-align: center;
+	}
+	#divimagens{
+		position: relative;
+		
+		margin: 40px auto;
+		width: 400px;
+	}
