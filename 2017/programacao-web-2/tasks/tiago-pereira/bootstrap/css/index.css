@@ -1,0 +1,18 @@
+body {
+	color: #333333;
+	font-family: 'Raleway', 'Droid+Serif', sans-serif;
+}
+.container-fluid{
+    background-color: #c7adad;
+}
+.navbar-default {
+	margin: 0px;
+}
+.col-sm-6 > h4 {
+	padding-top: 10px;
+	font-size: 30px;
+	color:  #f1f7ee;
+}
+.col-sm-6 > p {
+	color: #f1f7ee;
+}

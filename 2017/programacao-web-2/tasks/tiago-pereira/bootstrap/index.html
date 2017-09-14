@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel='stylesheet' href='css/bootstrap.css'>
+	<link rel="stylesheet" href="css/index.css">
+	<title>Atividade 3</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<header class='header'>
+		<nav class='navbar navbar-default' id='navbar-id'>
+			<div class='container-fluid' id='container-fluid-header'>
+				<div class='navbar-header' id='navbar-header-id'>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-id">
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-id">
+					<nav>
+						<ul class='nav navbar-nav'>
+							<li><a href='#home' class="hvr-underline-reveal scrollS">Home</a></li>
+							<li><a href='#produtos' class="hvr-underline-reveal scrollS">Produtos</a></li>
+							<li><a href='#contatos' class="hvr-underline-reveal scrollS">Contatos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid text-center">
+	    <div class="row">
+	        <div class="col-sm-6">
+	        	<img src="images/thumbs/01-verde-ubatuba.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+	        	<img src="images/thumbs/02-sao-gabriel.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+				<img src="images/thumbs/03-marrom-absoluto.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+				<img src="images/thumbs/05-branco-dallas.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 4</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	    </div>
+	    <div class="row">
+	        <div class="col-sm-6">
+				<img src="images/thumbs/06-travertino.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+				<img src="images/thumbs/07-marmore-carrarinha.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 6</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+				<img src="images/thumbs/08-marrom-sao-paulo.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 7</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	        <div class="col-sm-6">
+				<img src="images/thumbs/04-ocre-itabira.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="">
+				<h4>Produto 8</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis dui vehicula, posuere est fermentum, varius ante. Curabitur metus libero, pretium ac urna</p>
+	        </div>
+	    </div>
+	</div>
+	<div class="container-fluid">
+		<h2>Contato</h2>
+		<hr>
+		<div class="row">
+        	<div class="col-sm-6 col-md-7 col-lg-8">
+				<form>
+				<div class="form-group">
+					<input type="text" class="form-control f1" id="nome" name="nome" placeholder="nome" onblur="validarnome(this.value);"/>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control f1" id="email" name="email" placeholder="email" onblur="validaremail(this.value);"/>
+				</div>
+		    </div>
+		    <div class="col-sm-6 col-md-5 col-lg-4">
+		        <div class="form-group">
+					<select name="assunto" id="assunto f1" class="form-control" placeholder="assunto" required>
+						<option value="assunto">ASSUNTO</option>
+						<option value="assunto">ASSUNTO_2</option>
+						<option value="assunto">ASSUNTO_3</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input type="textarea" class="form-control f1" id="mensagem" name="mensagem" placeholder="mensagem">
+				</div>
+		    </div>
+    	</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
