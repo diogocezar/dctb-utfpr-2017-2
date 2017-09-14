@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <title>Exercicio de bootstrap</title>
+
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="container-fluid">
+
+            <div id = "header">
+
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#products">Produtos</a></li>
+                                <li><a href="#contacts">Contatos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row"><center>
+                    <div class="col-md-12">
+                        <h2>
+                            <b>PRODUTOS</b>
+                        </h2>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="progress">
+                        <div class="progress-bar progress-success">
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <section id = "products">
+
+                <div class="row"><center>
+                        <div class="col-md-12">
+                            <h2>
+                                <b>PRODUTOS</b>
+                            </h2>
+                        </div>
+                </div></center><br><br>
+                <div class="row"><center>
+                        <div class="col-md-3">
+                            <img src="images/banana.jpg" class="img-circle">
+                            <h2>
+                                Banana
+                            </h2>
+                            <p>
+                                Banana uma fruta tropical típica do Brasil
+                            </p>
+
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/ameixa.jpg" class="img-circle">
+                            <h2>
+                                Ameixa
+                            </h2>
+                            <p>
+                                Fruta muito saborosa vinda da Bélgica
+                            </p>
+
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/abacate.jpg" class="img-circle">
+                            <h2>
+                                Abacate
+                            </h2>
+                            <p>
+                                Fruta rica em colágeno
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/melao.jpg" class="img-circle">
+                            <h2>
+                                Melão
+                            </h2>
+                            <p>
+                                Fruta rica em água e proteínas
+                            </p>
+                        </div>
+                </div></center>
+
+
+                <div class="row"><center>
+                        <div class="col-md-3">
+                            <img src="images/melancia.jpg" class="img-circle">
+                            <h2>
+                                Melância
+                            </h2>
+
+                            <p>
+                                Fruta rica em água
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/uva.jpg" class="img-circle">
+                            <h2>
+                                Uva
+                            </h2>
+
+                            <p>
+                                Fruta rica em vitaminas
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/caju.jpg" class="img-circle">
+                            <h2>
+                                Caju
+                            </h2>
+
+                            <p>
+                                Fruta típica do nordeste
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/goiaba.jpg" class="img-circle">
+                            <h2>
+                                Goiaba
+                            </h2>
+
+                            <p>
+                                Fruta muito saborosa de cor rosada
+                            </p>
+                        </div>
+                </div></center>
+
+            </section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="progress">
+                        <div class="progress-bar progress-success">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>
+                        <center><b>CONTATO</b></center>
+                    </h2>
+
+                </div>
+            </div>
+
+            <section id = "contacts">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <form role="form">
+                            <div class="form-group">
+
+                                <label for="inputNome">
+                                    Nome
+                                </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+
+                                <label for="inputEmail">
+                                    Email
+                                </label>
+                                <input type="email" class="form-control">
+
+                            </div>
+                            <div class="form-group">
+
+                                <label for="inputAssunto">
+                                    Assunto
+                                </label>
+                                <input type="email" class="form-control">
+
+                            </div>
+                            <div class="form-group"><center>
+
+                                    <label for="inputMensagem">
+                                    </label>
+                                    <textarea rows="7" cols="80"></textarea>
+
+                            </div></center>
+
+                            <center><button type="submit" class="btn btn-default">
+                                    Submit
+                                </button></center>
+                        </form>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
