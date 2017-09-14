@@ -1,0 +1,51 @@
+body{
+	margin: 0 auto;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#options{
+	position: fixed;
+	float: left;
+	width: 100%;
+	background-color: #223843;
+	z-index: 1;
+	text-align: center;
+}
+
+#options nav{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	
+}
+
+#options ul{
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#options ul li{
+	position: relative;
+	float: left;
+	padding: 17px;
+	font-family: 'Droid Serif', serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	list-style: none;	
+	letter-spacing: 1px;
+	width: 25%;
+	box-sizing: border-box;
+}
+
+.container{
+	position: relative;
+	text-align: center;
+	padding: 5% 0% 5% 0%;
+	width: 100%;
+}
