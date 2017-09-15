@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Atividade 3 Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootcss.css">
+</head>
+<body>
+	<header class='header'>
+		<nav class='navbar navbar-default navbar-fixed-top' id='navbar-id'>
+			<div class='container-fluid' id='container-fluid-header'>
+				<div class='navbar-header' id='navbar-header-id'>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-id">
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</button>
+				</div>
+				<div class='container-fluid' id='container-fluid-header'>
+					<div class="collapse navbar-collapse" id="navbar-collapse-id">
+						<nav>
+							<ul class='nav navbar-nav'>
+								<li><a href='#home' class="hvr-grow scroll_suave">Home</a></li>
+								<li><a href='#produtos' class="hvr-grow scroll_suave">Produtos</a></li>
+								<li><a href='#contatos' class="hvr-grow scroll_suave">Contatos</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container text-center">
+	    <div class="row">
+	        <div class="col-sm-3">
+	        	<h4>Produto 1</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 2</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 3</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 4</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 5</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 6</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 7</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	        <div class="col-sm-3">
+	        	<h4>Produto 8</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, molestiae provident harum mollitia modi eum assumenda reprehenderit. Repudiandae voluptatibus consequatur ullam, totam esse cum, eum, veritatis fugit culpa magni numquam.</p>
+	        </div>
+	    </div>
+	</div>
+	<div class="container">
+		<form>
+		    <div class="row">
+		        <div class="col-sm-6 col-md-7 col-lg-8">
+		        	<div class="form-group">
+						<input type="text" class="form-control" id="nome" name="nome" placeholder="nome" onblur="validarnome(this.value);"/>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="email" name="email" placeholder="email" onblur="IsEmail(this.value);"/>
+					</div>
+		        </div>
+		        <div class="col-sm-6 col-md-5 col-lg-4">
+		        	<div class="form-group">
+						<select name="assunto" id="assunto" class="form-control" placeholder="assunto" required>
+							<option value="assunto">ASSUNTO</option>
+							<option value="assunto">ASSUNTO</option>
+							<option value="assunto">ASSUNTO</option>
+						</select>
+					</div>
+					<div class="form-group texto">
+						<textarea>Mensagem</textarea>
+					</div>
+		        </div>
+		    </div>
+		</form>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
