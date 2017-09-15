@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercício Bootstrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+  </head>
+
+  <body>
+
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">Exercício 3</a>
+        </div>
+
+        <div class="collapse navbar-collapse " id="barra">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Home</a></li>
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="products">
+      <div class="container">
+        <h1>Produtos</h1>
+        <hr/>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #6</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <h3>Produto #8</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container" >
+        <h1>Contato</h1>
+        <hr/>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-lg-8 col-md-7 col-sm-6 col-xs-12">
+              <input type="text" name="name" placeholder="NOME" class="form-control" />
+              <br/>
+              <input type="email" name="email" placeholder="EMAIL" class="form-control"/>
+            </div>
+
+            <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+              <input type="datalist" list='assunto' name="subject" placeholder="ASSUNTO" class="form-control"/>
+                <datalist id="assunto">
+                  <option value="Reclamação"></option>
+                  <option value="Sugestão"></option>
+                  <option value="Dúvidas"></option>
+                </datalist>
+              <br/>
+              <textarea name="message" cols="30" rows="7" placeholder="MENSAGEM" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-warning">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
