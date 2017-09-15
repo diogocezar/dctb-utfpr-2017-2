@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Atividade 03 - Bootstrap</title>
+
+	<!-- Relacionando arquivo CSS3 de estilo -->
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<meta name="keywords"            content="atividade3, bootstrap">
+	<meta name="viewport"            content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description"         content="Atividade 03">
+	<meta name="publisher"           content="Disciplina de WEB 2">
+	<meta name="author"              content="Tiago Pagotto">
+	<meta name="robots"              content="index,follow">
+
+	<!-- Incluindo bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		    <div class="container-fluid" id="container-fluid-menu">
+		    	<div class="navbar-header" id="myMenu-header">
+		    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+	       				<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+      				</button>
+		    	</div>
+      			<div class="collapse navbar-collapse" id="myNavbar">
+			    	<ul class="nav navbar-nav" id="menu">
+			    		<li><a href="#home" class="scrollS">HOME</a></li>
+			            <li><a href="#products" class="scrollS">PRODUTOS</a></li>
+			            <li><a href="#contact" class="scrollS">CONTATO</a></li>
+			    	</ul>
+		    	</div>
+			</div>
+		</nav>
+
+		<section id="products" class="jumbotron">
+			<div class="container-fluid text-center">
+				<h1 id="title">PRODUTOS:</h1>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 1:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 2:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 3:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 4:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 5:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 6:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 7:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+						<h3>Produto 8:</h3>
+						<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto delectus placeat deleniti, rerum maiores temporibus, velit possimus deserunt minima.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="jumbotron">
+			<div class="container-fluid text-center">
+				<h1 id="title">CONTATO:</h1>
+				<div class="row">
+					<form>
+						<div class="form-group col-lg-8 col-md-7 col-sm-12">
+							<label>Nome:</label>
+							<input type="text" class="form-control" placeholder="NOME"/>
+							<label>E-mail:</label>
+							<input type="email" class="form-control" placeholder="E-MAIL"/>
+						</div>
+						<div class="form-group col-lg-4 col-md-5 col-sm-12">
+							<label>Assunto:</label>
+							<input type="text" class="form-control" placeholder="ASSUNTO"/>
+							<label>Mensagem:</label>
+							<input type="email" class="form-control" placeholder="MENSAGEM"/>
+						</div>
+						<button type="submit" class="btn btn-primary">ENVIAR</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+</body>
+
+</html>
