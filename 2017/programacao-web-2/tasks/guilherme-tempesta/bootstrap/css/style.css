@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #E1DFDF !important;
+}
+
+section .container h1{
+	color: #F3780D;
+}
+
+/*********** 1. NAV  ***********/
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #F1F0F0;
+}
+
+
+
+/*********** 2. PRODUCTS  ***********/
+
+#products{
+	margin-top: 51px;
+	padding-bottom: 10px;
+}
+
+/*********** 3. CONTACT  ***********/
+
+#contact{
+	padding-bottom: 20px;
+}	
+
+#contact form{
+	text-align: center;
+}
+
+#contact form button{
+	margin: 15px;
+}
+/*********** 4. CONTACT  ***********/
+
+footer{
+	margin-top: 10px;
+	text-align: center;
+}
