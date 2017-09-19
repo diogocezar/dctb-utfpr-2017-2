@@ -1,0 +1,137 @@
+$margin_default: 10px 0;
+$avatar_radius: 50%;
+$button_radius: 4px;
+$primary_color: #3897f0;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { font-size: 1rem; }
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img { border: 0; }
+
+a { text-decoration: none; }
+
+body { background: #fafafa; }
+
+main {
+  width: 90%;
+  max-width: 935px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  margin: 30px 0;
+  flex-flow: column;
+
+  .avatar {
+    -webkit-border-radius: $avatar_radius ;
+    -moz-border-radius: $avatar_radius ;
+    border-radius: $avatar_radius ;
+    margin: 0 auto;
+  }
+
+  .desc { text-align: center; }
+
+  h1 {
+    display: inline-block;
+    margin: $margin_default;
+  }
+}
+
+h2 {
+  display: inline-block;
+  margin: $margin_default;
+}
+
+header {
+  h1 { font-size: 1.75rem; }
+
+  h2 { font-size: 1.5rem; }
+
+  .links {
+    list-style: none;
+    margin: $margin_default;
+
+    li {
+      list-style: none;
+      margin: 0 20px 0 0;
+      display: inline-block;
+    }
+  }
+}
+
+.default-button{
+  padding: 5px 15px;
+  border-width: 2px;
+  border-style: dashed;
+  border-radius; $button_radius;
+  -webkit-border-radius: $button_radius;
+  -moz-border-radius: $button_radius;
+  border-radius: $button_radius;
+
+}
+
+.btn-follow {
+  @extend .default-button;
+  margin: 0 20px;
+  border-color: $primary_color;
+  color: $primary_color;
+  
+
+  &:hover {
+    background: $primary_color;
+    color: #fff;
+  }
+}
+
+.photos {
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+
+  li {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+
+    img { width: 100%; }
+
+    .img-hover {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      transition: all 0.3s linear;
+    }
+
+    &:hover .img-hover { opacity: 1; }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-flow: row;
+    
+    .avatar { margin: 0 40px; }
+    
+    .desc { text-align: left; }
+  }
+
+  .photos li { width: 30%; }
+}
