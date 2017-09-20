@@ -1,0 +1,163 @@
+$primary-color: #3897f0;
+$secondary-color: #fafafa;
+$tertiary-color: #fff;
+
+$zero: 0;
+$vinte: 20px;
+$cem: 100%;
+
+@mixin box-sizing($sizing) {
+	-webkit-box-sizing: $sizing;
+	-moz-box-sizing: $sizing;
+	box-sizing: $sizing;
+}
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+* {
+	margin: $zero;
+	padding: $zero;
+	@include box-sizing(border-box); 
+}
+
+html {
+	font-size: 16px;
+}
+
+ul {
+	padding: $zero;
+	margin: $zero;
+}
+
+img {
+	border: $zero;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: $secondary-color;
+}
+
+main {
+	width: 90%;
+	max-width: 935px;
+	margin: $zero auto;
+}
+
+header {
+	display: flex;
+	margin: 30px $zero;
+	flex-flow: column;
+	
+	.avatar {
+		@include border-radius(50%); 
+		margin: $zero auto;
+	}
+
+	.desc {
+		text-align: center;
+	}
+
+	h1, h2 {
+		display: inline-block;
+		margin: 10px $zero;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+	
+	.links {
+		list-style: none;
+		margin: 10px $zero;
+		
+		li {
+			list-style: none;
+			margin: $zero $vinte $zero $zero;
+			display: inline-block;
+		}
+	}
+}
+
+.btn-follow {
+	margin: $zero $vinte;
+	padding: 6px 14px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: $primary-color;
+	color: $primary-color;
+	@include border-radius(4px);
+
+
+	&:hover {
+		background: $primary-color;
+		color: $tertiary-color;
+	}
+}
+
+.photos {
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display: flex;
+
+
+	li {
+		width: $cem;
+		margin: $vinte $zero;
+		position: relative;
+		
+		img {
+			width: $cem;
+		}
+
+		.img-hover {
+			opacity: $zero;
+			position: absolute;
+			top: $zero;
+			left: $zero;
+			width: $cem;
+			height: $cem;
+			background: rgba($zero, $zero, $zero, 0.3);
+			transition: all 0.3s linear;
+		}
+
+		&:hover, .img-hover {
+			opacity: 1;
+		}
+	}
+}
+
+@media (min-width: 768px ) {
+
+	header {
+		flex-flow: row;
+	
+		.avatar {
+			margin: $zero 40px;
+		}
+	
+		.desc {
+			text-align: left;
+		}
+
+	  	.photos{
+
+			li {
+				width: 30%;
+			}
+	  	}
+	}
+
+}
