@@ -19,6 +19,10 @@ Onde:
 
 Além disso, solicito que as próximas entregas sejam feitas no formato .PDF;
 
+Além da entrega pelo Moodle, espero que também seja entregue uma versão impressa no dia limite solicitado.
+
+As correções são progressivas, isso é, as correções apontadas em uma versão devem ser revisadas e entregues na próxima.
+
 ***
 
 ## Dicas Gerais (A1)
