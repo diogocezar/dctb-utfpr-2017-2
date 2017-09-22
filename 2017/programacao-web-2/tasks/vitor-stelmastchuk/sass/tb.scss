@@ -1,0 +1,207 @@
+﻿$color1: #fafafa;
+$color2: #3897f0;
+$color3: #fff;
+
+$medida1: 0;
+$medida2: 0 auto;
+$medida3: 0px auto;
+$medida4: 90%;
+$medida5: 935px;
+$medida6: 30px 0;
+$medida7: 50%;
+$medida8: 0 20px 0 0;
+$medida9: 4px;
+
+
+
+
+
+
+* {
+  margin: $medida1;
+  padding: $medida1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+ul {
+  padding: $medida1;
+  margin: $medida1;
+}
+
+img {
+  border: $medida1;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: $color1;
+}
+
+main {
+  width: $medida4;
+  max-width: $medida5;
+  margin: $medida2;
+}
+
+
+
+
+
+
+
+
+
+header  {
+
+display: flex;
+  margin: $medida6;
+  flex-flow: column;
+ 
+ h1 {
+  font-size: 28px;
+  display: inline-block;
+  margin: $medida3;
+}
+
+h2 {
+  font-size: 28px;
+  display: inline-block;
+  margin: $medida3;
+}
+
+.links {
+  list-style: none;
+  margin: $medida3;
+}
+
+
+.desc {
+  text-align: center;
+}
+
+
+.avatar {
+  -webkit-border-radius: $medida7;
+  -moz-border-radius: $medida7;
+  border-radius: $medida7;
+  margin: $medida2;
+}
+
+ .links {
+  list-style: none;
+  margin: $medida3;
+   
+   li {
+  list-style: none;
+  margin: $medida8;
+  display: inline-block;
+}
+  
+ }
+
+
+}
+
+$medida10:6px 14px;
+$medida11:0 20px;
+$medida12: 1px;
+$medida13: 100%;
+$medida14: 20px 0;
+
+
+.bnt
+{
+  padding: 6px 14px;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;  }
+
+.btn-follow {
+  margin:$medida11;
+  border-color: $color2;
+  color: $color2;
+  @extend .bnt;
+
+  
+}
+
+.btn-follow:hover {
+  background: $color2;
+  color: $color3;
+}
+
+.photos {
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  
+  li {
+  width: $medida13;
+  margin: $medida14;
+  position: relative;
+  
+  img {
+  width: $medida13;
+  }
+  
+  .img-hover {
+  opacity: $medida1;
+  position: absolute;
+  top: $medida1;
+  left: $medida1;
+  width: $medida13;
+  height: $medida13;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s linear;
+  }
+  
+  
+  }
+  
+  
+  
+}
+$medida15:0 40px;
+$medida16:768px;
+$medida17:30%;
+
+
+.photos li:hover .img-hover {
+  opacity: 1;
+}
+
+
+@media (min-width:$medida16) {
+
+  header {
+    flex-flow: row;
+	
+	.avatar {
+    margin: $medida15;
+  }
+  
+     .desc {
+    text-align: left;
+  }
+  
+  .photos li {
+  	  width: $medida17
+  }
+  
+ }
+
+ 
+
+}
