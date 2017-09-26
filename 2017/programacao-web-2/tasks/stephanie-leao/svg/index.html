@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Project SVG</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400, 900" rel="stylesheet">
+
+		<style>	
+			body{
+				background-color: #808080;
+				font-family: 'Raleway', sans-serif;
+				color: #FFFFFF;
+				font-weight: 900;
+				text-align: center;
+			}
+
+			.icon{ 
+				background: url('images/icon.svg') no-repeat;
+				padding: 12px;
+				float: left;
+				margin-left: 31%;
+
+			}
+			
+			.container{
+		       		display: flex;
+		        	align-items: center;
+		        	justify-content: center;
+		        	height: 100vh;
+				margin-top: 5%;
+	        	}
+	
+		        svg{
+		        	width: 200px;
+			        height: 200px;
+			        cursor: pointer;
+	       		}
+	        
+	        	@-webkit-keyframes rotate{
+			        from {
+			        	-webkit-transform:rotate(0deg)
+			        }
+			        to {
+		       		 	-webkit-transform:rotate(360deg);
+		       		 }
+	        	}
+
+			.polygoncolor{
+				transition: all 0.5s linear;
+				-webkit-transition: all 0.5s linear;
+				fill: black;
+			}
+
+			svg:hover .polygoncolor{
+				-webkit-animation-name: rotate;
+				-webkit-animation-duration: 0.5s;
+				-webkit-animation-timing-function: ease-in-out;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-direction: alternate;
+				transform-origin: center center;
+				fill: white;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<img src="images\icon.svg"/>
+    		<div class="icon"></div>
+		<h1> Projeto de SVG </h1>
+		<img src="images\icon.svg"/>
+		<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+			<path fill="#000000" d="M6,19A5,5 0 0,1 1,14A5,5 0 0,1 6,9C7,6.65 9.3,5 12,5C15.43,5 18.24,7.66 18.5,11.03L19,11A4,4 0 0,1 23,15A4,4 				0 0,1 19,19H6M19,13H17V12A5,5 0 0,0 12,7C9.5,7 7.45,8.82 7.06,11.19C6.73,11.07 6.37,11 6,11A3,3 0 0,0 3,14A3,3 0 0,0 6,17H19A2,2 0 				0,0 21,15A2,2 0 0,0 19,13Z" />
+		</svg>
+		<div class="container">
+			<section id="four">
+				<p> Um retângulo, feito com SVG </p>
+        			<svg version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">    
+					<rect x="10" y="10" width="300" height="200"></rect>
+				</svg>
+                
+				<p> Um círculo, feito com SVG </p>       
+				<svg version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+            				<circle r="100" cx="100" cy="100"></circle>
+        			</svg>
+
+                		<p> Uma linha, feita com SVG </p>
+        			<svg version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+            				<line x1="10" y1="10" x2="200" y2="200" stroke="#000" stroke-width="5"></line>
+        			</svg>
+        
+				<p> Um polígono, feito com SVG </p>
+				<svg version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48" viewBox=" 23 5 100 100">
+     					<polygon points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30" class="polygoncolor"></polygon>
+        			</svg>
+   			   
+			</section>
+   		 </div>
+	</body>
+</html>
