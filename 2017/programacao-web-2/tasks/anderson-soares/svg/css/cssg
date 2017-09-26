@@ -1,0 +1,5 @@
+.azubu {
+  width: 505px;
+  height: 190px;
+  background-image: url(http://v3.danielmall.com/articles/svg-workflow-for-designers/svg.svg)
+}
