@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>Atividade SVG</title>
+
+		<style>
+
+			.container{
+				width: 800px;
+				display: flex;
+				margin:  0 auto;
+				align-items: center;
+				justify-content: space-between;
+
+			}
+
+			.container-2{
+				width: 800px;
+				display: flex;
+				margin:  0 auto;
+				align-items: center;
+				flex-direction: column;
+
+			}
+
+			.box{
+				width: 250px;
+				height: 250px;
+			}
+
+			.box-2{
+				width: 350px;
+				height: 250px;
+			}
+
+			.icon{
+				background-image: url(images/emoji.svg);
+				width: 128px;
+				height: 128px;
+			}
+
+			.color1{
+				fill: red; 
+				stroke: black; 
+				stroke-width: 2px;
+			}
+			
+
+			/*ICONE*/
+			.svg-icon {
+				width: 10em;
+ 				height: 10em;
+			}
+
+			.svg-icon path,
+			.svg-icon polygon,
+			.svg-icon rect {
+				fill: #4691f6;
+			}
+
+			.svg-icon path:hover,
+			.svg-icon polygon:hover,
+			.svg-icon rect:hover {
+				fill: #808080;
+			}
+
+			.svg-icon circle {
+				stroke: #4691f6;
+				stroke-width: 1;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="container">
+			<div class="box">
+				<h1>SVG como imagem</h1>
+				<hr/>
+				<img src="images/key.svg" alt="Key"/>
+			</div>
+			<div class="box">
+				<h1>SVG como background</h1>
+				<hr/>
+				<div class="icon"></div>
+			</div>
+			<div class="box">
+				<h1>SVG com código inline</h1>
+				<hr/>
+				<svg width="400" height="200">
+					<rect x="50" y="20" rx="20" ry="20" width="150" height="150" fill="black" stroke="grey" stroke-width="3.5" opacity="0.7" />
+				</svg>
+			</div>
+		</section>
+		<section class="container">
+			<h1>Criando formas:</h1>
+			<hr/>
+		</section>
+		<section class="container-2">
+
+			<h3>Retângulo</h3>
+			<svg width="400" height="100">
+  					<rect width="400" height="100" fill="blue" stroke-width="15" stroke="cyan" />
+			</svg>
+			
+			<h3>Círculo</h3>
+			<svg width="200" height="200">
+	  				<circle cx="110" cy="110" r="90" fill="#213a12" stroke-width="2" stroke="#FFF323" />
+			</svg>
+			<h3>Linha</h3>
+			<svg>
+	 				<line x1="15" y1="60" x2="50" y2="20" stroke="black" stroke-width="10"/>
+	 		</svg>
+
+			<h3>Polígono</h3>
+			<svg width="400" height="200">
+	  				<polygon points="90,10 80,12 10,170 200,10" class="color1" />
+			</svg>
+		</section>
+		<section class="container-2">
+			<h1>Ícone SVG</h1>
+			<svg class="svg-icon" viewBox="0 0 20 20">
+				<path fill="none" d="M8.652,16.404c-0.186,0-0.337,0.151-0.337,0.337v2.022c0,0.186,0.151,0.337,0.337,0.337s0.337-0.151,0.337-0.337v-2.022C8.989,16.555,8.838,16.404,8.652,16.404z"></path>
+				<path fill="none" d="M11.348,16.404c-0.186,0-0.337,0.151-0.337,0.337v2.022c0,0.186,0.151,0.337,0.337,0.337s0.337-0.151,0.337-0.337v-2.022C11.685,16.555,11.535,16.404,11.348,16.404z"></path>
+				<path fill="none" d="M17.415,5.281V4.607c0-2.224-1.847-4.045-4.103-4.045H10H6.687c-2.256,0-4.103,1.82-4.103,4.045v0.674H10H17.415z"></path>
+				<path fill="none" d="M18.089,10.674V7.304c0,0,0-0.674-0.674-0.674V5.955H10H2.585v0.674c-0.674,0-0.674,0.674-0.674,0.674v3.371c-0.855,0.379-1.348,1.084-1.348,2.022c0,1.253,2.009,3.008,2.009,3.371c0,2.022,1.398,3.371,3.436,3.371c0.746,0,1.43-0.236,1.98-0.627c-0.001-0.016-0.009-0.03-0.009-0.047v-2.022c0-0.372,0.303-0.674,0.674-0.674c0.301,0,0.547,0.201,0.633,0.474h0.041v-0.137c0-0.372,0.303-0.674,0.674-0.674s0.674,0.302,0.674,0.674v0.137h0.041c0.086-0.273,0.332-0.474,0.633-0.474c0.371,0,0.674,0.302,0.674,0.674v2.022c0,0.016-0.008,0.03-0.009,0.047c0.55,0.391,1.234,0.627,1.98,0.627c2.039,0,3.436-1.348,3.436-3.371c0-0.362,2.009-2.118,2.009-3.371C19.438,11.758,18.944,11.053,18.089,10.674z M5.618,18.089c-0.558,0-1.011-0.453-1.011-1.011s0.453-1.011,1.011-1.011s1.011,0.453,1.011,1.011S6.177,18.089,5.618,18.089z M6.629,13.371H5.474c-0.112,0-0.192-0.061-0.192-0.135c0-0.074,0.08-0.151,0.192-0.174l1.156-0.365V13.371z M8.652,12.521c-0.394,0.163-0.774,0.366-1.148,0.55c-0.061,0.03-0.132,0.052-0.2,0.076v-0.934c0.479-0.411,0.906-0.694,1.348-0.879V12.521z M5.281,10c-1.348,0-1.348-2.696-1.348-2.696h5.393C9.326,7.304,6.629,10,5.281,10z M10.674,12.296c-0.22-0.053-0.444-0.084-0.674-0.084s-0.454,0.032-0.674,0.084v-1.168C9.539,11.086,9.762,11.06,10,11.05c0.238,0.01,0.461,0.036,0.674,0.078V12.296z M12.696,13.146c-0.068-0.024-0.14-0.046-0.2-0.076c-0.374-0.184-0.754-0.386-1.148-0.55v-1.188c0.442,0.185,0.87,0.467,1.348,0.879V13.146zM14.382,18.089c-0.558,0-1.011-0.453-1.011-1.011s0.453-1.011,1.011-1.011c0.558,0,1.011,0.453,1.011,1.011S14.94,18.089,14.382,18.089z M13.371,13.371v-0.674l1.156,0.365c0.112,0.022,0.192,0.099,0.192,0.174c0,0.074-0.08,0.135-0.192,0.135H13.371z M14.719,10c-1.348,0-4.045-2.696-4.045-2.696h5.393C16.067,7.304,16.067,10,14.719,10z"></path>
+				<path fill="none" d="M10,16.067c-0.186,0-0.337,0.151-0.337,0.337V19.1c0,0.186,0.151,0.337,0.337,0.337s0.337-0.151,0.337-0.337v-2.696C10.337,16.218,10.186,16.067,10,16.067z"></path>
+			</svg>
+		</section>
+	</body>
+</html>
