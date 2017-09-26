@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Atividade 05 - SVG</title>
+
+    <meta name="keywords"            content="atividade5, svg">
+	<meta name="viewport"            content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description"         content="Atividade 05">
+	<meta name="publisher"           content="Disciplina de WEB 2">
+	<meta name="author"              content="Tiago Pagotto">
+	<meta name="robots"              content="index,follow">
+
+	<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+</head>
+
+<body>
+	<h1>Exemplo de SVG como se fosse uma imagem:</h1>
+    <img src="images/homer-simpson.svg" alt="Homer" height="200"/>
+	
+	<h1 id="title">Exemplo de SVG como background:</h1>
+	
+	<section>
+		<h1>Exemplos de SVG com o código inline:</h1>
+		<h2>Retângulo com SVG</h2>
+		<svg>
+			<rect x="5" y="5" width="100" height="100" stroke="black" stroke-width="2" fill="green"/>
+		</svg>
+		<h2>Círculo com SVG</h2>
+		<svg>
+			<circle cx="55" cy="55" r="50" stroke="black" stroke-width="2" fill="green"/>
+		</svg>
+		<h2>Linha com SVG</h2>
+		<svg>
+			<line x2="100" y2="100" stroke="black" stroke-width="2"/>
+		</svg>
+		<h2>Polígono com SVG</h2>
+		<svg height="210" width="500">
+			<polygon points="100,10 40,198 190,78 10,78 160,198" fill="green" stroke="black" stroke-width="2" />
+		</svg>
+	</section>
+	
+	<h1>Exemplo de ícone SVG com hover:</h1>
+	<svg class="lnr lnr-poop"><use xlink:href="#lnr-poop"></use></svg>
+	
+</body>
+
+<style>
+	#title{
+		background-image: url(images/homer-simpson.svg);
+		background-repeat:no-repeat;
+	}
+
+	.lnr-poop:hover{
+		fill:green;
+	}
+</style>
+
+</html>
