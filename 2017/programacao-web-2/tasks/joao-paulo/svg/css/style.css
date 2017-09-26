@@ -1,0 +1,22 @@
+.icone {
+background: url("../image/penguin.svg") no-repeat;
+background: rgba(0,0,0,0) url("../img/icone.svg") no-repeat;
+width: 2em;
+height: 2em;
+text-indent: -6000px;
+}
+
+.centraliza {
+    width: 555px;
+    margin: auto;
+    height: 375px;
+}
+ rect:hover{
+    opacity: 0.5;
+	
+}
+polygon:hover{
+	fill: red;
+	stroke: black;
+}
+

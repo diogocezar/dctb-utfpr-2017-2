@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SVG</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="João Paulo">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+	<body>
+
+			<header>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="text-primary text-center">
+							Atividade 05 - SVG.
+						</h3>
+					</div>
+				</div>
+			</header>
+			
+			<section id="one">
+				<div class="row">
+					<div class="centraliza">
+						<div class="col-md-12">
+							<img src="image/penguin.svg" alt="Penguin"  >
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section id="two">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="centraliza">
+						
+							<h2>SVG hover</h2>
+							<svg width="300" height="80">
+							  <rect id="rect1"  x="160" y="10" width="60" height="60" fill="blue"/>
+							  <rect id="rect2" x="230" y="10"  width="60" height="60" fill="green"/>
+							</svg>
+						</div>
+						<div class="centraliza">
+							<h2>InLine</h2>
+							<svg>
+									<path fill="#231F20" d="M32,17.969v-4l-4.781-1.992c-0.133-0.375-0.273-0.737-0.445-1.094l1.93-4.805L25.875,3.25l-4.763,1.961
+									c-0.362-0.175-0.734-0.323-1.117-0.461L17.969,0h-4l-1.977,4.734c-0.398,0.141-0.781,0.289-1.161,0.469L6.078,3.294L3.25,6.122
+									l1.938,4.711C5,11.219,4.847,11.614,4.703,12.021L0,14.031v4l4.706,1.961c0.146,0.406,0.302,0.802,0.489,1.188l-1.903,4.742
+									L6.12,28.75l4.724-1.945c0.378,0.18,0.766,0.325,1.164,0.461L14.031,32h4l1.979-4.758c0.38-0.141,0.755-0.289,1.114-0.461
+									l4.797,1.922l2.828-2.828l-1.969-4.773c0.167-0.359,0.305-0.722,0.438-1.094L32,17.969z M15.969,22c-3.312,0-6-2.688-6-6
+									s2.688-6,6-6s6,2.688,6,6S19.281,22,15.969,22z"/>
+							</svg>
+						</div>		
+						<div class="centraliza">
+							<h2>Circulo</h2>
+							<svg width="100" height="100">
+								<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+							</svg>
+						</div>
+						<div class="centraliza">
+							<h2>Retangulo</h2>
+							<svg width="400" height="100">
+								<rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+							</svg>
+						</div>
+						<div class="centraliza">
+							<h2>Linha</h2>
+							<svg>
+								<line x1="10" y1="10" x2="100" y2="120" stroke="#000" stroke-width="4"/>
+							</svg>
+						</div>
+						<div class="centraliza">
+							<h2>Estrela</h2>
+							<svg width="300" height="200">
+							  <polygon points="100,10 40,198 190,78 10,78 160,198"
+							  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+							</svg>
+						</div>
+						<div class="centraliza">
+								<h2>Polígono</h2>
+							<svg>
+								<polygon points="50,5 100,5 125,30 125,80 100,105 50,105 25,80 25,30" fill="#000" stroke="red" stroke-width="4"/>
+							</svg>
+						</div>					
+					</div>
+				</div>
+			</section>
+	
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
