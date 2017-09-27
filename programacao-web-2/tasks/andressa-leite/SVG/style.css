@@ -1,0 +1,17 @@
+#svgBackground{
+	background-image: url("animals-sprite.svg");
+	width: 400px;
+	height: 70px;
+	
+}
+
+#svgInline{
+	padding-top: 2%;
+	width: 200px;
+	height: 150px;
+}
+
+#svgPoligono:hover{
+	fill: pink;
+	stroke-dasharray: 10;
+}
