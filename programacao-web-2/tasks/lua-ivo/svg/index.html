@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exerciio SVG</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+	<h1>SVG</h1>
+	<h2>inserção de SVG como se fosse uma imagem;</h2> 
+	<img class="image" src="image/legoMan.svg" alt="image1">
+	<div id="fundo" >
+		<h2>inserção de SVG como background</h2>
+
+	</div>
+	<h2>Uma inserção de SVG com o código inline</h2>
+		<svg height="210" width="500">
+  		<polygon id="exer3" points="200,10 250,190 160,210" />
+</svg> 
+	<h2>inserção de um retângulo, um círculo, uma linha, e um polígono todos feitos com SVG, para o polígono foi utilizado classes para definir suas cores.</h2>
+	 <svg>
+ 		<rect x="50" y="20" width="100" height="100"/>
+	</svg>
+	<svg>
+	 <circle r="50" cx="150" cy="70" />
+	</svg>
+	<svg>
+	 <line x1="10" y1="100" x2="100" y2="100" stroke="#000" stroke-width="4"/>
+	</svg>
+	<svg>
+		<polygon class="pol" points="90,15 150,15 190,75 150,135 90,135 50,75" />
+	</svg>
+
+
+
+	<h2>Uma inserção inline de um ícone SVG que ao receber o houver do mouse, troque a cor de algum dos seus elementos.</h2>
+	<svg  height="210" width="500">
+  		<polygon class="exer5" points="200,10 250,190 160,210" />
+	
+</html>

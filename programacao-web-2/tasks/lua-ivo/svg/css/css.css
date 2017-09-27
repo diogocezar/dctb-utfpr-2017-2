@@ -1,0 +1,20 @@
+#fundo {
+  width: 505px;
+  height: 190px;
+  background-image: url("leaves_doily.svg");
+  background-color: #cccccc;
+}
+#exer3{
+ fill:lime;
+ stroke:purple;
+ stroke-width:1;
+}
+
+.pol{
+	fill : green;
+}
+.exer5:hover { 
+    fill : black;
+ 	stroke : purple;
+ 	stroke-width:5;
+} 
