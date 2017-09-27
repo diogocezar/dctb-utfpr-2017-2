@@ -1,0 +1,12 @@
+#svg-background{
+    width: 100px;
+    height: 100px;
+    background: url("../assets/images/coins.svg") no-repeat;
+    background-size: cover;
+}
+
+#hover:hover{
+    fill: #000000;
+    stroke: #36ACF0;
+    cursor: pointer;
+}

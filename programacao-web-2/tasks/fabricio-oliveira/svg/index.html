@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercicio SVG</title>
+</head>
+<body>
+    
+    <h3>Uma inserção de SVG como se fosse uma imagem</h3>
+    <img src="assets/images/spotify.svg" width="100" alt="Spotify" />
+    <hr />
+
+
+    <h3>Uma inserção de SVG como background;</h3>
+    <div id="svg-background"></div>
+    <hr />
+
+    <h3>Uma inserção de SVG com o código inline;</h3>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <hr />
+    
+
+    <h3>Sessões de SVGS</h3>
+        <h4>Um retângulo, feito com SVG</h4>
+        <svg width="100" height="100">
+            <rect rect width="400" height="100" fill="red"  />
+        </svg>
+        <hr />
+
+        <h4>Um círculo, feito com SVG</h4>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" fill="red" />
+        </svg>
+        <hr />
+
+        <h4>Uma linha, feita com SVG</h4>
+        <svg width="400" height="2">
+            <rect rect width="400" height="2" fill="red"  />
+        </svg>
+        <hr />
+
+        <h4>Um polígono feito com SVG</h4>
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:#FF7878;stroke:#000000;stroke-width:5" />
+        </svg>
+        <hr />
+    
+    <h3>Uma inserção inline de um ícone SVG que ao receber o houver do mouse, troque a cor de algum dos seus elemento</h3>
+    <svg width="300" height="200">
+        <polygon  id="hover" points="100,10 40,198 190,78 10,78 160,198"
+        fill="#36ACF0" stroke="#000000" stroke-width="5" />
+    </svg>
+    <hr />
+</body>
+</html>
