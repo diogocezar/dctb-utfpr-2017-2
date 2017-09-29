@@ -1,6 +1,6 @@
 <?
 
-// Nome: Roberto Guimarães Junior         
+// Nome: Roberto Guimarães Juni 
 // RA: 1647270          
 // Curso: Engenharia de Software     
 // Período: 7°         
