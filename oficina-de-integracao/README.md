@@ -1,12 +1,12 @@
 # Oficina de Integração [AN34E]
 
-Neste documento estão organizadas as instruções gerais para a elaboração e correção das 5 fases do projeto a ser elaborado na Oficina de Integração.
+Neste documento estão organizadas as instruções gerais para a elaboração e correção das 4 fases do projeto a ser elaborado na __Oficina de Integração__.
 
 Professor: Diogo Cezar Teixeira Batista
 
 Email: diogoc@utfpr.edu.br
 
-# Indice
+# Índice
 
 1. [Objetivos](#objetivos)
 2. [Ementa](#ementa)
@@ -144,7 +144,6 @@ Seguem os grupos e seus respectivos temas:
 |       | Nelson Boralli Neto                   |                                 |
 |       | Rodrigo Miyashiro Mucci               |                                 |
 |       | Thiago Oliveira De Souza              |                                 |
-|-------|---------------------------------------|---------------------------------|
 
 # Dicas
 
@@ -174,5 +173,3 @@ A seguir, listo alguns ítens para serem observados e **corrigidos** no trabalho
 ## Entrega A3
 
 ## Entrega A4
-
-## Entrega A5
