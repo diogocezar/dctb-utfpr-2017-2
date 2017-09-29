@@ -15,6 +15,7 @@ Email: diogoc@utfpr.edu.br
 5. [Entregáveis](#entregáveis)
 6. [Cronograma](#cronograma)
 7. [Dicas](#dicas)
+8. [Instruções](#instruções)
 
 # Objetivos
 
@@ -173,3 +174,27 @@ A seguir, listo alguns ítens para serem observados e **corrigidos** no trabalho
 ## Entrega A3
 
 ## Entrega A4
+
+# Instruções
+
+__Para auxiliar e emabasar as entregas estão disponíveis no Moodle 2 trabalhos feitos em outros semestres com uma estrutura semelhante a desejada para nossa disciplina.__
+
+Aqui estão as instruções para as próximas entregas:
+
+## Entrega A2
+
+Deve-se elaborar no documento os seguintes tópicos:
+
++ Modelo de Banco de Dados;
++ Diagrama de Classes;
++ Diagrama de Atividades;
+
+O __Modelo de Banco de Dados__ deve englobar:
+
++ Modelo Conceitual - Diagrama Entidade-Relacionamento desenvolvido para o banco de dados do sistema;
++ Modelo Lógico - Banco de dados normalizado, apresentando as tabelas com os atributos e restrições (chaves);
++ Dicionário de Dados - Documentar cada tabela com seus atributos mostrando nome do atributo, tipo, tamanho, descrição, se é obrigatório ou não, e o que mais for necessário para descrever os dados. Documentar também usuários, stored procedures, funções e qualquer outra implementação ligada ao banco de dados.
+
+O __Diagrama de Classes__ deve apresentar um diagrama com as classes do projeto. É importante que este diagrama seja também explicado textualmente;
+
+O __Diagrama de Atividades__ representa o detalhamento de tarefas e o fluxo de uma atividade para outra de um sistema. Nem todas as tarefas do sistema necessitam de um detalhamento, portanto deve-se considerar no que o diagrama irá auxiliar na implementação do sistema  para decidir quais atividades devem ser descritas.
