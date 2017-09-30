@@ -1,14 +1,12 @@
-<?
 
-// Nome: Roberto Guimarães Juni 
+<?php    // Exercicio 1
+
+
+// Nome: Roberto Guimarães Junior 
 // RA: 1647270          
 // Curso: Engenharia de Software     
 // Período: 7°         
 // Arquivo: PHP
-
-?>
-
-<?php    // Exercicio 1
 
 
 define("TESTE1", "primeira constante");    // Exercício 15
