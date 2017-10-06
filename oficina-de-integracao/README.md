@@ -16,6 +16,7 @@ Email: diogoc@utfpr.edu.br
 6. [Cronograma](#cronograma)
 7. [Dicas](#dicas)
 8. [Instruções](#instruções)
+9. [GitHub](https://github.com/diogocezar/dctb-utfpr-2017-2/tree/master/oficina-de-integracao/github)
 
 # Objetivos
 
@@ -76,7 +77,7 @@ Além da entrega pelo __Moodle__, espero que também seja entregue uma versão _
 
 As correções são progressivas, isso é, as correções apontadas em uma versão devem ser revisadas e entregues na próxima.
 
-O __Repositório com o Código Fonte do Projeto__ deverã ser um repositório criado na plataforma GitHub com todo o seu projeto.
+O __Repositório com o Código Fonte do Projeto__ deverá ser um repositório criado na plataforma GitHub com todo o seu projeto.
 
 É importante que no repositório se crie uma estrutura mínima de organização contendo:
 
