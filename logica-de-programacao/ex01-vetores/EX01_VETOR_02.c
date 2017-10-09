@@ -2,7 +2,7 @@
 * Professor Diogo Cezar Teixeira Batista
 * <diogo@diogocezar.com>
 * <diogoc@utfpr.edu.br>
-* Problema: crie um aplicativo em C que peça um número inicial ao usuário, uma razão e calcule os termos de uma P.A (Progressão Aritmética), armazenando esses valores em um vetor de tamanho 10;
+* Problema: crie um aplicativo em C que peça um número inicial ao usuário, uma razão e calcule os termos de uma P.A (Progressão Aritmética), armazenando esses valores em um vetor de tamanho 10.
 */
 
 #include <stdio.h>

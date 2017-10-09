@@ -8,7 +8,7 @@
 #include<stdio.h>
 
 int main(){
-	int vet[10],x, y=0;
+	int vet[10], x, y=0;
 	// preechimento do vetor vet
 	for(x=0;x<=9;x++){
 		vet[x]=y+2;

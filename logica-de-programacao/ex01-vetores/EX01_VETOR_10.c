@@ -2,14 +2,12 @@
 * Professor Diogo Cezar Teixeira Batista
 * <diogo@diogocezar.com>
 * <diogoc@utfpr.edu.br>
-* Problema: Preencher um vetor com os numeros 10 a 20, e depois mostrar os elementos pares do vetor de trás prá frente. E também mostrar os números ímpares.
+* Problema: preencher um vetor com os numeros 10 a 20, e depois mostrar os elementos pares do vetor de trás prá frente. E também mostrar os números ímpares.
 */
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-#include<conio.h>
-#include<string.h>
+#include <stdio.h>
+#include <math.h>
+
 int main(){
 	int z,x,vet[11], t=10;
 	for(z=0; z<11; z++){

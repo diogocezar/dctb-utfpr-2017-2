@@ -2,7 +2,7 @@
 * Professor Diogo Cezar Teixeira Batista
 * <diogo@diogocezar.com>
 * <diogoc@utfpr.edu.br>
-* Problema: Preencher um vetor de 8 elementos inteiros. Mostrar o vetor e informar quantos números são maior que 30, Somar estes números. Somar todos os números.
+* Problema: preencher um vetor de 8 elementos inteiros. Mostrar o vetor e informar quantos números são maior que 30, Somar estes números. Somar todos os números.
 */
 
 #include<stdio.h>

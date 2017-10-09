@@ -2,7 +2,7 @@
 * Professor Diogo Cezar Teixeira Batista
 * <diogo@diogocezar.com>
 * <diogoc@utfpr.edu.br>
-* Problema: Preencher um vetor com 5 numeros e a medida que for digitado o numero, calcular o cubo e mostrar em outro vetor. Mostrar os dois vetores.
+* Problema: preencher um vetor com 5 numeros e a medida que for digitado o numero, calcular o cubo e mostrar em outro vetor. Mostrar os dois vetores.
 */
 
 #include <stdio.h>

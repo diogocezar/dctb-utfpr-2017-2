@@ -2,7 +2,7 @@
 * Professor Diogo Cezar Teixeira Batista
 * <diogo@diogocezar.com>
 * <diogoc@utfpr.edu.br>
-* Problema: crie um programa em C que receba 10 números, armazene eles em um vetor e diga qual elemento é o maior, qual é o menor, e seus valores;
+* Problema: crie um programa em C que receba 10 números, armazene eles em um vetor e diga qual elemento é o maior, qual é o menor, e seus valores.
 */
 
 #include <stdio.h>
