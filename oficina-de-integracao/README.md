@@ -187,8 +187,8 @@ Até este dia, todo o código fonte que já foi elaborado deve estar comitado no
 
 A apresentação deverá ser feita em 10 minutos:
 
-	+ 5 minutos são para as apresentações das telas já elaboradas;
-	+ 5 minutos são para as apresentações dos códigos elaborados;
++ 5 minutos são para as apresentações das telas já elaboradas;
++ 5 minutos são para as apresentações dos códigos elaborados;
 
 Todos os integrantes do grupo deverão dizer o que fizeram no projeto.
 
