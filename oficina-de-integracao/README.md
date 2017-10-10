@@ -147,35 +147,6 @@ Seguem os grupos e seus respectivos temas:
 |       | Rodrigo Miyashiro Mucci               |                                 |
 |       | Thiago Oliveira De Souza              |                                 |
 
-# Dicas
-
-## Entrega A1
-
-As dicas são gerais e se aplicam para todos os grupos.
-
-A seguir, listo alguns ítens para serem observados e **corrigidos** no trabalho entregue e nas próximas entregas.
-
-1. Gostaria de contar com mais caprixo e organização do material. Essencialmente fiz um modelo a ser seguido, mas não é por isso que vocês vão apenas digitar os conteúdos. Eu preciso que vocês constantemente revisem as formatações e entreguem um documento formatado e dentro dos padrões esperados de um trabalho acadêmico.
-2. Tomem mais cuidado com a formação e alinhamento das páginas, espaços em branco e elementos desalinhados;
-3. Vejam com mais cuidado os tamanhos dos textos, fontes e estilizações;
-4. Tentem manter todo o documento o mais próximo do padrão que foi definido;
-5. No documento de exemplo, estão textos descritivos referentes a cada uma das seções, peço que retirem os textos das seções que ainda serão implementadas, deixando as entregas apenas com os textos que vocês elaborarem;
-6. Após esta primeira entrega (A1), nota-se a necessidade de retrabalhar e utilizar sub-níveis nos diagramas de casos de uso, preço que façam isso para a próxima entrega;
-7. Na parte de tecnologias deve-se descrevê-las, explicá-las, mostrar a sua importância e o motivo de sua escolha para o projeto em questão;
-8. Utilizem as referências bibliográficas; Em vários casos, notei que afirmações sem base científica foram feitas. Tudo o que você quiser escrever, não pode vir do senso comum, tem que estar embasado científicamente. Citem e utilizem para isso artigos científicos e referências bibliográficas;
-9. Notei muitos erros ortográficos. Além disso, a escrita ainda não está formal o suficiente. É necessário readaptar e reescrever certas partes do texto buscando uma escrita formal e objetiva;
-10. Todas as palavras em inglês devem estar escrita em __itálico__;
-11. Deve-se especificar em algum momento do trabalho a utilização das ferramentas Git e GitHub;
-12. Cuidado com a utilização da palavra "onde"; https://educacao.uol.com.br/disciplinas/portugues/onde-aprenda-a-usar-corretamente-essa-palavra.htm
-13. Eu já havia solicitado, mas reforçando: O cronograma deve estar formatado em uma tabela e não em uma imagem; Além disso é importante definir uma data, o que será feito e quem será o responsável pela entrega;
-14. Legibilidade nas imagens a serem colocadas no documento;
-
-## Entrega A2
-
-## Entrega A3
-
-## Entrega A4
-
 # Instruções
 
 __Para auxiliar e emabasar as entregas estão disponíveis no Moodle 2 trabalhos feitos em outros semestres com uma estrutura semelhante a desejada para nossa disciplina.__
@@ -199,3 +170,68 @@ O __Modelo de Banco de Dados__ deve englobar:
 O __Diagrama de Classes__ deve apresentar um diagrama com as classes do projeto. É importante que este diagrama seja também explicado textualmente;
 
 O __Diagrama de Atividades__ representa o detalhamento de tarefas e o fluxo de uma atividade para outra de um sistema. Nem todas as tarefas do sistema necessitam de um detalhamento, portanto deve-se considerar no que o diagrama irá auxiliar na implementação do sistema  para decidir quais atividades devem ser descritas.
+
+## Entrega A3
+
+Nesta entrega, será necessário mostrar como as __coisas estão andando__.
+
+No documento, __não é necessária nenhuma nova inclusão__.
+
+Apenas as __correções__ que foram apontadas pelo professor.
+
+Não é necessário entregar uma cópia impressa, nessa versão.
+
+A apresentação ao professor será feita no dia: __10/11/2017__.
+
+Até este dia, todo o código fonte que já foi elaborado deve estar comitado no repositório do projeto, que deve estar descrito neste documento: https://goo.gl/Swrbea
+
+A apresentação deverá ser feita em 10 minutos:
+
+	+ 5 minutos são para as apresentações das telas já elaboradas;
+	+ 5 minutos são para as apresentações dos códigos elaborados;
+
+Todos os integrantes do grupo deverão dizer o que fizeram no projeto.
+
+Perguntas podem ser realizadas pelo professor para cada um dos integrantes.
+
+### IMPORTANTE
+
++ Todas as sugestões do professor deverão ser acatadas até a entrega final do projeto;
++ Nessa etapa do projeto, o sistema já deve estar funcional. É importante que a principal funcionalidade esteja implementada, mesmo que parcialmente;
++ O que será avaliado?
+
+	+ Objetividade com relação as explicações;
+	+ Tempo suficiente para apresentação de todo o conteúdo;
+	+ Postura e desinvoltura na apresentação;
+	+ Respostas as possíveis perguntas;
+	+ Design e aparência do software;
+	+ Usabilidade do software;
+	+ Estruturação do Código;
+	+ Indentação;
+	+ Comentários e anotações;
+	+ Documentação;
+	+ Estrutura de Pastas e Arquivos;
+	+ Fidelidade aos padrões de projetos escolhidos;
+
+# Dicas
+
+## Entrega A1
+
+As dicas são gerais e se aplicam para todos os grupos.
+
+A seguir, listo alguns ítens para serem observados e **corrigidos** no trabalho entregue e nas próximas entregas.
+
+1. Gostaria de contar com mais caprixo e organização do material. Essencialmente fiz um modelo a ser seguido, mas não é por isso que vocês vão apenas digitar os conteúdos. Eu preciso que vocês constantemente revisem as formatações e entreguem um documento formatado e dentro dos padrões esperados de um trabalho acadêmico.
+2. Tomem mais cuidado com a formação e alinhamento das páginas, espaços em branco e elementos desalinhados;
+3. Vejam com mais cuidado os tamanhos dos textos, fontes e estilizações;
+4. Tentem manter todo o documento o mais próximo do padrão que foi definido;
+5. No documento de exemplo, estão textos descritivos referentes a cada uma das seções, peço que retirem os textos das seções que ainda serão implementadas, deixando as entregas apenas com os textos que vocês elaborarem;
+6. Após esta primeira entrega (A1), nota-se a necessidade de retrabalhar e utilizar sub-níveis nos diagramas de casos de uso, preço que façam isso para a próxima entrega;
+7. Na parte de tecnologias deve-se descrevê-las, explicá-las, mostrar a sua importância e o motivo de sua escolha para o projeto em questão;
+8. Utilizem as referências bibliográficas; Em vários casos, notei que afirmações sem base científica foram feitas. Tudo o que você quiser escrever, não pode vir do senso comum, tem que estar embasado científicamente. Citem e utilizem para isso artigos científicos e referências bibliográficas;
+9. Notei muitos erros ortográficos. Além disso, a escrita ainda não está formal o suficiente. É necessário readaptar e reescrever certas partes do texto buscando uma escrita formal e objetiva;
+10. Todas as palavras em inglês devem estar escrita em __itálico__;
+11. Deve-se especificar em algum momento do trabalho a utilização das ferramentas Git e GitHub;
+12. Cuidado com a utilização da palavra "onde"; https://educacao.uol.com.br/disciplinas/portugues/onde-aprenda-a-usar-corretamente-essa-palavra.htm
+13. Eu já havia solicitado, mas reforçando: O cronograma deve estar formatado em uma tabela e não em uma imagem; Além disso é importante definir uma data, o que será feito e quem será o responsável pela entrega;
+14. Legibilidade nas imagens a serem colocadas no documento;
