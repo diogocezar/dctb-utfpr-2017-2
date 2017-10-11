@@ -17,23 +17,23 @@ Na tabela a seguir temos os grupos, os temas, e a equipe correspondente para o d
 
 | GRUPO | ALUNOS                             | PROJETO                                                                                  | FRONT-END |
 |-------|------------------------------------|------------------------------------------------------------------------------------------|-----------|
-| 1     | ALAN NICOLAS LINS DE ALBUQUERQUE   | SEDENTO - Sistema para Cardápios e Pedidos Online                                        | 2         |
-|       | FABRICIO JHONATA SOUSA DE OLIVEIRA |                                                                                          |           |
+| 1     | ALAN NICOLAS LINS DE ALBUQUERQUE   | SEDENTO                                                                                  | 2         |
+|       | FABRICIO JHONATA SOUSA DE OLIVEIRA | Sistema para Cardápios e Pedidos Online                                                  |           |
 |       | LUCAS JACINTO DA SILVA             |                                                                                          |           |
-| 2     | ANDRESSA LEITE HENRIQUES           | COLETANDO - Sistema para auxiliar coletores e colaboradores na coleta reciclável de lixo | 1         |
-|       | LUA IVO MACHADO                    |                                                                                          |           |
+| 2     | ANDRESSA LEITE HENRIQUES           | COLETANDO                                                                                | 1         |
+|       | LUA IVO MACHADO                    | Sistema para auxiliar coletores/colaboradores na coleta reciclável de lixo               |           |
 |       | STEPHANIE LEAO FLORO DA SILVA      |                                                                                          |           |
 | 3     | TIAGO PEREIRA COELHO               | Sugestões de Hardwre para perfis de usuários                                             | 6         |
 |       | VITOR STELMASTCHUK SANTOS          |                                                                                          |           |
 |       | ANDERSON MARQUES SOARES            |                                                                                          |           |
 |       | CARLOS HENRIQUE DOS SANTOS         |                                                                                          |           |
-| 4     | AMILTON FONTOURA DE CAMARGO JUNIOR | PASSEI RASPANDO - Repositório de Trabalhos Acadêmicos                                    | 5         |
-|       | GUILHERME TAVARES TEMPESTA         |                                                                                          |           |
+| 4     | AMILTON FONTOURA DE CAMARGO JUNIOR | PASSEI RASPANDO                                                                          | 5         |
+|       | GUILHERME TAVARES TEMPESTA         | Repositório de Trabalhos Acadêmicos                                                      |           |
 |       | TIAGO PAGOTTO                      |                                                                                          |           |
 | 5     | LUIZ GUILHERME DEVIDE SPIRITO      | Gerenciador de Carteira online para o RU                                                 | 4         |
 |       | RODRIGO MORETTO                    |                                                                                          |           |
 |       | LUCAS FERNANDES COELHO             |                                                                                          |           |
-| 6     | ROBERTO GUIMARAES JUNIOR           | Ordem de Serviços                                                                        | 3         |
+| 6     | ROBERTO GUIMARAES JUNIOR           | Sistema de Ordem de Serviços                                                             | 3         |
 |       | JOAO PAULO BERNARDINO MACIEL       |                                                                                          |           |
 
 # Como deve ser entregue?
@@ -73,7 +73,7 @@ A seguir define-se um cronograma para a realização das tarefas.
 + 16/11/2017 - Apresentação do andamento;
 + 23/11/2017 - Entrega Final;
 
-# Requisitos Front-End;
+# Requisitos Front-End
 
 Deve-se criar um documento de especificação de como o __Front-End__ deverá ser implementado.
 
@@ -81,7 +81,7 @@ Este documento deve conter, em linhas gerais, a estrutura e organização dos el
 
 As ferramentas para a elaboração deste documento são de livre escolha.
 
-# Entrega do Front-End;
+# Entrega do Front-End
 
 + Todo o projeto deve utilizar o Framework CSS Bootstrap;
 + Utilizem o sistema de grids para tornar o sistema responsivo;
