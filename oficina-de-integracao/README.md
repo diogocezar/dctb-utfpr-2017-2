@@ -194,6 +194,43 @@ Todos os integrantes do grupo deverão dizer o que fizeram no projeto.
 
 Perguntas podem ser realizadas pelo professor para cada um dos integrantes.
 
+## Entrega A4
+
+É a entrega final do projeto.
+
+Deve-se entregar o documento em sua versão final, com todas as correções feitas.
+
+Deve-se entregar uma versão impressa do seu documento, com todos os capítulos preenchidos.
+
+As apresentações ocorrerão nos dias __24/09/2017__ e __01/12/2017__ na sequência ordenada dos grupos;
+
+| 24/09/2017 | GRUPO 1  |
+|------------|----------|
+|            | GRUPO 2  |
+|            | GRUPO 3  |
+|            | GRUPO 4  |
+|            | GRUPO 5  |
+| 01/12/2017 | GRUPO 6  |
+|            | GRUPO 7  |
+|            | GRUPO 8  |
+|            | GRUPO 9  |
+|            | GRUPO 10 |
+
+Nestas datas, a presença será considerada parte da nota de sua apresentação.
+
+Mesmo os grupos que não irão apresentar no dia, devem estar presentes para compor sua nota integral.
+
+No dia da apresentação, os grupos devem preparar:
+
++ Repositório final do GitHub com todo o código fonte disponível para todos os alunos que quiserem analisar e avaliar o projeto;
++ Uma apresentação formal, com slides que resumam todo o processo de desenvolvimento do projeto, desde a idéia inicial até a entrega final;
++ A apresentação deve ter no mínimo 10 minutos e no máximo 15 minutos;
++ Deve-se apresentar as principais funcionalidades do software em 5 minutos;
++ Todos os alunos devem participar;
++ Apontar as dificuldades encontradas;
++ Apontar o que foi possível de ser implementado e o que não foi possível;
++ Conclusão de como o trabalho contribuiu para o conhecimento de cada membro do grupo;
+
 ### IMPORTANTE
 
 + Todas as sugestões do professor deverão ser acatadas até a entrega final do projeto;
@@ -235,3 +272,30 @@ A seguir, listo alguns ítens para serem observados e **corrigidos** no trabalho
 12. Cuidado com a utilização da palavra "onde"; https://educacao.uol.com.br/disciplinas/portugues/onde-aprenda-a-usar-corretamente-essa-palavra.htm
 13. Eu já havia solicitado, mas reforçando: O cronograma deve estar formatado em uma tabela e não em uma imagem; Além disso é importante definir uma data, o que será feito e quem será o responsável pela entrega;
 14. Legibilidade nas imagens a serem colocadas no documento;
+
+## Entrega A2
+
+As dicas são gerais e se aplicam para todos os grupos.
+
+1. Ainda falta um pouco em questão ao visual do documento em alguns casos; Prestar atenção em:
+	+ Formatação das tabelas (cores dos cabeçalhos (preto) e letras maiúsculas);
+	+ Espaçamento entre linhas;
+	+ Legenda das Figuras e Tabelas;
+	+ Referência as Figuras e Tabelas;
+	+ Explicações das Figuras e Tabelas;
+
+2. Muitos não conseguiram aplicar corretamente os diagramas de atividades, seguem alguns links que podem ajudar para a próxima correção:
+	+ http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/atividades/diag_atividades.htm
+	+ http://homepages.dcc.ufmg.br/~figueiredo/disciplinas/aulas/uml-diagrama-atividades_v01.pdf
+
+3. Os diagramas de classes, de maneira geral, devem refletir a estrutura do sistema como um todo. Alguns grupos agregaram no diagrama de classes, componentes e organizações relacionada a padrões de projeto. Isso deve ser feito com cuidado, de modo a não engessar o projeto para que ele só consiga ser feito de um única maneira;
+
+4. Realizar as correções apontadas nos documentos para a próxima entrega;
+
+5. Nas tabelas, nenhuma célula deve ficar vazia. Deve-se preencher com frases do tipo "Não se aplica." para manter uma uniformidade visual;
+
+6. Caprixem mais nas referências bibliográficas:
+	+ Referências para justificar a ideia;
+	+ Referências para justificar as tecnologias;
+
+7. Preparem os links para o preenchimento desta planilha: https://docs.google.com/spreadsheets/d/1MXHORrGllaMVDStkU1xGJJMMGLOWAX1YfhYWqFkmi5s/edit#gid=762115179
