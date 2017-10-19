@@ -204,8 +204,9 @@ Deve-se entregar uma versão impressa do seu documento, com todos os capítulos 
 
 As apresentações ocorrerão nos dias __24/09/2017__ e __01/12/2017__ na sequência ordenada dos grupos;
 
-| 24/09/2017 | GRUPO 1  |
+| DATA       | GRUPO    |
 |------------|----------|
+| 24/09/2017 | GRUPO 1  |
 |            | GRUPO 2  |
 |            | GRUPO 3  |
 |            | GRUPO 4  |
