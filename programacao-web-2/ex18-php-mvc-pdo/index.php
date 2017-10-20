@@ -1,6 +1,6 @@
 <?php
 	require 'vendor/autoload.php';
 
-	$controllerAgenda = new App\Controllers\ControllerUser();
-	$controllerAgenda->index();
+	$user = new App\Controllers\ControllerUser();
+	$user->index();
 ?>

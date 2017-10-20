@@ -1,12 +1,12 @@
 <?php
 	require 'vendor/autoload.php';
 
-	$controllerAgenda = new App\Controllers\ControllerUser();
+	$user = new App\Controllers\ControllerUser();
 
-	$user = array(
+	$user_data = array(
 		'name'  => 'Diogo Cezar',
 		'email' => 'diogo@diogocezar.com'
 	);
 
-	$controllerAgenda->save($user);
+	$user->save($user_data);
 ?>

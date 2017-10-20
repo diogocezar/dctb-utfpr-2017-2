@@ -1,11 +1,11 @@
 <?php
 	require 'vendor/autoload.php';
 
-	$controllerAgenda = new App\Controllers\ControllerUser();
+	$user = new App\Controllers\ControllerUser();
 
-	$user = array(
+	$user_data = array(
 		'id'  => '1'
 	);
 
-	print_r($controllerAgenda->query($user));
+	$user->query($user_data);
 ?>
