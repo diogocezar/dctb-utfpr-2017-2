@@ -68,10 +68,10 @@ Todos os membros do grupo deverão fazer commits no repositório destinado a reg
 
 A seguir define-se um cronograma para a realização das tarefas.
 
-+ 17/10/2017 - Requisitos Front-End;
-+ 31/10/2017 - Entrega do Front-End;
-+ 16/11/2017 - Apresentação do andamento;
-+ 23/11/2017 - Entrega Final;
++ 24/10/2017 - Requisitos Front-End;
++ 04/11/2017 - Entrega do Front-End;
++ 21/11/2017 - Apresentação do andamento;
++ 28/11/2017 - Entrega Final;
 
 # Requisitos Front-End
 
