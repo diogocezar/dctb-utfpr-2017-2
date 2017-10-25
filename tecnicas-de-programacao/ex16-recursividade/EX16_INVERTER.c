@@ -21,6 +21,13 @@ void normal(int number){
 		printf("%d", last);
 		number /= 10;
 	} while(number != 0);
+}void normal(int number){
+	int last;
+	do{
+		last = number % 10;
+		printf("%d", last);
+		number /= 10;
+	} while(number != 0);
 }
 
 void recursive(int number){
