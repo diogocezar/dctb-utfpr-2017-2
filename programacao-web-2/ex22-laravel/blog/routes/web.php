@@ -14,3 +14,10 @@
 Auth::routes();
 
 Route::get('/', 'Front\FeedController@index')->name('front.feed');
+
+Route::group(['prefix' => 'admin'], function(){
+	Route::get('/', function(){
+		return Redirect::to('/admin/dashboard');
+	});
+	Route::get('dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
+});
