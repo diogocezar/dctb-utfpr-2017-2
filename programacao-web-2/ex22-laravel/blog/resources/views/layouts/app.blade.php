@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Exemplo Posts de Blog</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -43,6 +43,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @guest
+                            <li><a href="{{ route('front.feed') }}">Feed</a></li>
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
                         @else
@@ -52,6 +53,18 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ route('front.feed') }}">Feed</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('admin.dashboard') }}">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('admin.post') }}">Gerenciar Posts</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('admin.comment') }}">Gerenciar Comentários</a>
+                                    </li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
