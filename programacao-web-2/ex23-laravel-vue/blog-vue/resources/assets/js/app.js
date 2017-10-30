@@ -1,9 +1,11 @@
 require('./bootstrap');
 window.Vue  = require('vue');
 
-import Posts from './components/Posts.vue';
+import CompFooter from './components/CompFooter.vue';
 
-const app = new Vue({
-    el: '#app',
-    components: { Posts }
+Vue.config.ignoredElements = ['comp-posts'];
+
+const vueApp = new Vue({
+    el: '#vue-app',
+    components: { CompFooter }
 });
