@@ -4,13 +4,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <small class="text-center">Todos os direitos reservados</small>
+                        <small class="text-center">{{text}}</small>
                     </div>
                 </div>
             </div>
         </footer>
-	</div>
+    </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            text : 'Todos os direitos reservados'
+        }
+    }
+}
+</script>
 
 <style>
 .text-center {

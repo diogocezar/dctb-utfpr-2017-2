@@ -22,7 +22,6 @@
 
 <script>
     export default {
-        name: 'CompPos',
     	data() {
     		return {
     			posts : [],
