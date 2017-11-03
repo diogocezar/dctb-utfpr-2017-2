@@ -6,9 +6,9 @@
 	require 'vendor/autoload.php';
 
 	$controllerAgenda = new App\Controllers\ControllerAgenda();
-	$controllerAgenda->index();
+	//$controllerAgenda->index();
 
-	/*
+
 
 	$controllerAgenda->save(
 		array(
@@ -18,6 +18,6 @@
 		)
 	);
 
-	*/
+
 
 ?>
