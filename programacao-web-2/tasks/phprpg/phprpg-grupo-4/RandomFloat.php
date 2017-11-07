@@ -1,3 +1,4 @@
+
 <?php
 /*******
 
@@ -42,6 +43,10 @@ function rand_float($min=0.0, $max=0.0, $casasdecimais=1) {
 		// Insere o número no final
 		$dec .= $n;
 	}
+	
+	// Se não foi informado o número de casas decimais, insere zero no fim
+	if ($casasdecimais < 1)
+		$dec = 0;
 	
 	// Retorna com o número gerado
 	return (float)($abs.'.'.$dec);
