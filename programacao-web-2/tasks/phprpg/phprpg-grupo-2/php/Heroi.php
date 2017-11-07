@@ -8,7 +8,8 @@
 			  this->bencao = $bencao;
 		}
 		public function descansar(){
-			
+			return if((($this->vida + $this->nivel + $this->bencao ) * mt_rand(1.00, 1.60)) > 20 )
 		}
+
 	}
 ?>

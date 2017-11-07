@@ -15,12 +15,15 @@
 		<link rel="icon" type="image/png" href=".\assets\images\icon.png"/>
 		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link href="assets/css/style.css" rel="stylesheet"/>
 	</head>
 	<body>
 		<section id="initial">
 			<img src=".\assets\images\fundo.jpg"/>
-			<div id="gradient"></div>
+			<div id="name"> RPG COMBATE </div>
+			<a href="#combat" class="go-menu"> <button type="submit" id="btnInitial"> INICIAR </button></a>
+			<div id="gradientInitial"></div>
 		</section>
 		
 		<section id="components">
@@ -28,7 +31,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\dark_glorysson.jpg"/> 
 								<p class="legend">Dark Glorysson</p>
@@ -43,7 +46,7 @@
 					</div>
 					
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\mellayine.jpg"/>
 								<p class="legend">Mellayine</p>
@@ -58,7 +61,7 @@
 					</div>
 										
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\gryin.jpg"/> 
 								<p class="legend">Cryin</p>
@@ -75,7 +78,7 @@
 				
 				<div class="row">
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\montaro.jpg"/> 
 								<p class="legend">Montaro</p>
@@ -90,7 +93,7 @@
 					</div>
 						
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\lord_black.jpg"/>
 								<p class="legend">Lord Black</p>
@@ -105,7 +108,7 @@
 					</div>
 					
 					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-						<div class="col-md-3 col-sm-12 flipper">
+						<div class="col-lg-4 col-md-4 col-sm-12 flipper">
 							<div class="front">
 								<img src=".\assets\images\matilda.jpg"/> 
 								<p class="legend">Matilda</p>
@@ -121,5 +124,34 @@
 				</div>
 			</div>
 		</section>
+		
+		<section id="combat"> 
+			<div id="gradientCombat"></div>
+			<P> COMBATE </P>
+			<?php 
+			
+				require_once '/php/Confronto.php';
+				require_once '/php/Heroi.php';
+				require_once '/php/Monstro.php';
+				
+				$darkGlorysson = new Heroi("Dark Glorysson", "Humano", 8, 100, 100, 10, 5, 10, 15, 2, 10);
+				$mellayine = new Heroi("Mellayine", "Humano", 5, 100, 80, 25, 10, 8, 2, 20, 10);
+				$cryin = new Heroi("Cryin", "Anão", 10, 100, 50, 30, 5, 10, 5, 1, 10);
+				$montaro = new Monstro("Montaro", "Elfo das Estrelas", 7, 100, 100, 10, 5, 10, 15, 10);
+				$lordBlack = new Monstro("Lord Black", "Humano", 10, 100, 20, 32, 12, 10, 10, 1);
+				$matilda = new Monstro("Matilda", "Elfo das Trevas", 10, 100, 80, 10, 8, 10, 18, 5);
+				
+				
+			?>
+			
+		</section>
+		
+		<script>
+			$(document).ready(function() {
+				$("#btnInitial").click(function() {
+					$("#combat").css("display", "block");
+				});
+			});
+		</script>
 	</body>
 </html>

@@ -26,23 +26,30 @@
 		}
 		
 		public function atacar(){
-			
+			return ($this->nivel + $this->forca + $this->agilidade + ($this->magia * 0.1)) * mt_rand(1.00, 1.60);
 		}
 		
 		public function defender(){
-			
+			return ($this->agilidade + ($this->destreza * 1.8) + $this->inteligencia) * mt_rand(1.00, 1.60) + 10;
 		}
 		
 		public function vivo(){
-			
+			return if ($this->vida > 0); 
 		}
 		
 		public function perdeVida(){
-			
+			$this->vida = $this->vida - 8;
 		}
 		
 		public function revitalizar(){
-			
+			$this->vida = $this->vida + 50;
+			$this->magia = $this->magia +30;
+			if ($this->vida >= 100) {
+				$this->vida=100;
+			}
+			if ($this->magia >= 100) {
+				$this->magia=100;
+			}
 		}
 		
 		abstract public function descansar(){
