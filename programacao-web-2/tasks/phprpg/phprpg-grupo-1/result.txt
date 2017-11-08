@@ -1,0 +1,640 @@
+***********   Primeira rodada de batalhas: ************* 
+Round 1
+
+Montaro atacou (36, 27.733333333333) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 100
+-------------------------------------------------
+Round 2
+
+Dark Glorysson atacou (38.933333333333, 27.733333333333) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 92
+-------------------------------------------------
+Round 3
+
+Montaro atacou (31.2, 30.266666666667) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 92
+-------------------------------------------------
+Round 4
+
+Dark Glorysson atacou (29.2, 29) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 84
+-------------------------------------------------
+Round 5
+
+Montaro atacou (38.4, 26.466666666667) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 84
+-------------------------------------------------
+Round 6
+
+Dark Glorysson atacou (26.766666666667, 29) Montaro
+Vida do heroi 76
+Vida do monstro 84
+-------------------------------------------------
+Round 7
+
+Montaro atacou (36, 23.933333333333) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 84
+-------------------------------------------------
+Round 8
+
+Dark Glorysson atacou (26.766666666667, 26.466666666667) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 76
+-------------------------------------------------
+Round 9
+
+Montaro atacou (31.2, 25.2) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 76
+-------------------------------------------------
+Round 10
+
+Dark Glorysson atacou (31.633333333333, 30.266666666667) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 68
+-------------------------------------------------
+Round 11
+
+Montaro atacou (31.2, 27.733333333333) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 68
+-------------------------------------------------
+Round 12
+
+Dark Glorysson atacou (34.066666666667, 27.733333333333) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 60
+-------------------------------------------------
+Round 13
+
+Montaro atacou (36, 26.466666666667) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 44
+Vida do monstro 60
+-------------------------------------------------
+Round 14
+
+Dark Glorysson atacou (36.5, 26.466666666667) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 44
+Vida do monstro 52
+-------------------------------------------------
+Round 15
+
+Montaro atacou (36, 23.933333333333) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 52
+-------------------------------------------------
+Round 16
+
+Dark Glorysson atacou (29.2, 27.733333333333) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 44
+-------------------------------------------------
+Round 17
+
+Montaro atacou (33.6, 25.2) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 28
+Vida do monstro 44
+-------------------------------------------------
+Round 18
+
+Dark Glorysson atacou (26.766666666667, 27.733333333333) Montaro
+Vida do heroi 28
+Vida do monstro 44
+-------------------------------------------------
+Round 19
+
+Montaro atacou (26.4, 25.2) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 20
+Vida do monstro 44
+-------------------------------------------------
+Round 20
+
+Dark Glorysson atacou (36.5, 25.2) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 20
+Vida do monstro 36
+-------------------------------------------------
+Round 21
+
+Montaro atacou (31.2, 23.933333333333) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 36
+-------------------------------------------------
+Round 22
+
+Dark Glorysson atacou (31.633333333333, 29) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 28
+-------------------------------------------------
+Round 23
+
+Montaro atacou (31.2, 26.466666666667) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 28
+-------------------------------------------------
+Round 24
+
+Dark Glorysson atacou (38.933333333333, 26.466666666667) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 20
+-------------------------------------------------
+Round 25
+
+Montaro atacou (26.4, 26.466666666667) Dark Glorysson
+Vida do heroi 4
+Vida do monstro 20
+-------------------------------------------------
+Round 26
+
+Dark Glorysson atacou (38.933333333333, 26.466666666667) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 12
+-------------------------------------------------
+Round 27
+
+Montaro atacou (28.8, 30.266666666667) Dark Glorysson
+Vida do heroi 4
+Vida do monstro 12
+-------------------------------------------------
+Round 28
+
+Dark Glorysson atacou (29.2, 23.933333333333) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 4
+-------------------------------------------------
+Round 29
+
+Montaro atacou (31.2, 26.466666666667) Dark Glorysson
+Dark Glorysson perdeu 8 pontos de vida
+Vida do heroi 0
+Vida do monstro 4
+-------------------------------------------------
+[31m*** Vencedor: Montaro [0m
+
+Round 1
+
+Matilda atacou (34, 21.44) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 100
+-------------------------------------------------
+Round 2
+
+Mellayine atacou (34.666666666667, 30.533333333333) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 92
+-------------------------------------------------
+Round 3
+
+Matilda atacou (24.933333333333, 22.32) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 92
+-------------------------------------------------
+Round 4
+
+Mellayine atacou (34.666666666667, 30.533333333333) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 84
+-------------------------------------------------
+Round 5
+
+Matilda atacou (34, 21.44) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 84
+-------------------------------------------------
+Round 6
+
+Mellayine atacou (32, 27.6) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 76
+-------------------------------------------------
+Round 7
+
+Matilda atacou (27.2, 19.68) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 76
+-------------------------------------------------
+Round 8
+
+Mellayine atacou (40, 30.533333333333) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 68
+-------------------------------------------------
+Round 9
+
+Matilda atacou (24.933333333333, 23.2) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 68
+-------------------------------------------------
+Round 10
+
+Mellayine atacou (40, 32) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 60
+-------------------------------------------------
+Round 11
+
+Matilda atacou (24.933333333333, 19.68) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 60
+-------------------------------------------------
+Round 12
+
+Mellayine atacou (34.666666666667, 32) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 52
+-------------------------------------------------
+Round 13
+
+Matilda atacou (34, 23.2) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 44
+Vida do monstro 52
+-------------------------------------------------
+Round 14
+
+Mellayine atacou (29.333333333333, 30.533333333333) Matilda
+Vida do heroi 44
+Vida do monstro 52
+-------------------------------------------------
+Round 15
+
+Matilda atacou (29.466666666667, 21.44) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 52
+-------------------------------------------------
+Round 16
+
+Mellayine atacou (34.666666666667, 29.066666666667) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 44
+-------------------------------------------------
+Round 17
+
+Matilda atacou (27.2, 20.56) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 28
+Vida do monstro 44
+-------------------------------------------------
+Round 18
+
+Mellayine atacou (32, 30.533333333333) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 28
+Vida do monstro 36
+-------------------------------------------------
+Round 19
+
+Matilda atacou (34, 21.44) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 20
+Vida do monstro 36
+-------------------------------------------------
+Round 20
+
+Mellayine atacou (29.333333333333, 30.533333333333) Matilda
+Vida do heroi 20
+Vida do monstro 36
+-------------------------------------------------
+Round 21
+
+Matilda atacou (24.933333333333, 24.08) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 36
+-------------------------------------------------
+Round 22
+
+Mellayine atacou (34.666666666667, 29.066666666667) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 28
+-------------------------------------------------
+Round 23
+
+Matilda atacou (27.2, 24.08) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 28
+-------------------------------------------------
+Round 24
+
+Mellayine atacou (32, 26.133333333333) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 20
+-------------------------------------------------
+Round 25
+
+Matilda atacou (31.733333333333, 22.32) Mellayine
+Mellayine perdeu 8 pontos de vida
+Vida do heroi 0
+Vida do monstro 20
+-------------------------------------------------
+Matilda pode descansar
+[31m*** Vencedor: Matilda [0m
+
+Round 1
+
+Lord Black atacou (27.733333333333, 22.133333333333) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 100
+-------------------------------------------------
+Round 2
+
+Gryin atacou (32.666666666667, 31.333333333333) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 92
+Vida do monstro 92
+-------------------------------------------------
+Round 3
+
+Lord Black atacou (25.6, 22.133333333333) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 92
+-------------------------------------------------
+Round 4
+
+Gryin atacou (37.333333333333, 31.333333333333) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 84
+Vida do monstro 84
+-------------------------------------------------
+Round 5
+
+Lord Black atacou (32, 22.133333333333) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 84
+-------------------------------------------------
+Round 6
+
+Gryin atacou (37.333333333333, 26) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 76
+-------------------------------------------------
+Round 7
+
+Lord Black atacou (23.466666666667, 24) Gryin
+Vida do heroi 76
+Vida do monstro 76
+-------------------------------------------------
+Round 8
+
+Gryin atacou (35, 30) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 76
+Vida do monstro 68
+-------------------------------------------------
+Round 9
+
+Lord Black atacou (34.133333333333, 24) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 68
+-------------------------------------------------
+Round 10
+
+Gryin atacou (30.333333333333, 26) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 68
+Vida do monstro 60
+-------------------------------------------------
+Round 11
+
+Lord Black atacou (25.6, 24.933333333333) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 60
+-------------------------------------------------
+Round 12
+
+Gryin atacou (30.333333333333, 28.666666666667) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 60
+Vida do monstro 52
+-------------------------------------------------
+Round 13
+
+Lord Black atacou (25.6, 24) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 52
+-------------------------------------------------
+Round 14
+
+Gryin atacou (32.666666666667, 28.666666666667) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 52
+Vida do monstro 44
+-------------------------------------------------
+Round 15
+
+Lord Black atacou (34.133333333333, 20.266666666667) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 44
+Vida do monstro 44
+-------------------------------------------------
+Round 16
+
+Gryin atacou (25.666666666667, 30) Lord Black
+Vida do heroi 44
+Vida do monstro 44
+-------------------------------------------------
+Round 17
+
+Lord Black atacou (29.866666666667, 20.266666666667) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 44
+-------------------------------------------------
+Round 18
+
+Gryin atacou (32.666666666667, 30) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 36
+Vida do monstro 36
+-------------------------------------------------
+Round 19
+
+Lord Black atacou (23.466666666667, 23.066666666667) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 28
+Vida do monstro 36
+-------------------------------------------------
+Round 20
+
+Gryin atacou (37.333333333333, 27.333333333333) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 28
+Vida do monstro 28
+-------------------------------------------------
+Round 21
+
+Lord Black atacou (23.466666666667, 24.933333333333) Gryin
+Vida do heroi 28
+Vida do monstro 28
+-------------------------------------------------
+Round 22
+
+Gryin atacou (25.666666666667, 31.333333333333) Lord Black
+Vida do heroi 28
+Vida do monstro 28
+-------------------------------------------------
+Round 23
+
+Lord Black atacou (25.6, 23.066666666667) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 20
+Vida do monstro 28
+-------------------------------------------------
+Round 24
+
+Gryin atacou (35, 26) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 20
+Vida do monstro 20
+-------------------------------------------------
+Round 25
+
+Lord Black atacou (29.866666666667, 24) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 20
+-------------------------------------------------
+Round 26
+
+Gryin atacou (28, 24.666666666667) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 12
+Vida do monstro 12
+-------------------------------------------------
+Round 27
+
+Lord Black atacou (23.466666666667, 23.066666666667) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 12
+-------------------------------------------------
+Round 28
+
+Gryin atacou (28, 28.666666666667) Lord Black
+Vida do heroi 4
+Vida do monstro 12
+-------------------------------------------------
+Round 29
+
+Lord Black atacou (29.866666666667, 21.2) Gryin
+Gryin perdeu 8 pontos de vida
+Vida do heroi 0
+Vida do monstro 12
+-------------------------------------------------
+[31m*** Vencedor: Lord Black [0m
+
+
+
+
+***********   Segunda rodada de batalhas: ************* 
+Round 1
+
+Montaro atacou (31.2, 29.066666666667) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 62
+Vida do monstro 4
+-------------------------------------------------
+Round 2
+
+Matilda atacou (33.8, 23.933333333333) Montaro
+Montaro perdeu 8 pontos de vida
+Vida do heroi 62
+Vida do monstro 0
+-------------------------------------------------
+Matilda pode descansar
+[31m*** Vencedor: Matilda [0m
+
+
+
+
+***********   Terceira rodada de batalhas: ************* 
+Round 1
+
+Matilda atacou (28.6, 24.666666666667) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 100
+-------------------------------------------------
+Round 2
+
+Lord Black atacou (29.866666666667, 29.066666666667) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 92
+-------------------------------------------------
+Round 3
+
+Matilda atacou (28.6, 30) Lord Black
+Vida do heroi 4
+Vida do monstro 92
+-------------------------------------------------
+Round 4
+
+Lord Black atacou (34.133333333333, 29.066666666667) Matilda
+Matilda perdeu 8 pontos de vida
+Vida do heroi 4
+Vida do monstro 84
+-------------------------------------------------
+Round 5
+
+Matilda atacou (33.8, 31.333333333333) Lord Black
+Lord Black perdeu 8 pontos de vida
+Vida do heroi 0
+Vida do monstro 84
+-------------------------------------------------
+Matilda pode descansar
+[31m*** Vencedor: Matilda [0m
+
