@@ -85,8 +85,8 @@ confronto.
 						$flag = 2; // Altera a flag para a próxima criatura na próxima rodada
 
 						// Efetua o confronto
-						$ataque = $criatura1->atacar();
-						$defesa = $criatura2->defender();
+						$ataque = (float)$criatura1->atacar();
+						$defesa = (float)$criatura2->defender();
 						
 						// Se o ataque da criatura 1 é mais forte que a defesa da criatura 2
 						if ($ataque > $defesa) {
@@ -97,7 +97,7 @@ confronto.
 							
 						// Se a defesa da criatura 2 é mais forte que o ataque da criatura 1
 						} else
-							echo '<br/><img src="images/defense.png" width="60" height="60" border="0" style="float:left;" /><b>' . $criatura1->getNome() . '</b> atacou mas <b>' . $criatura2->getNome() . '</b> defendeu (' . $defesa . ' <i>vs</i> ' . $ataque . ')';
+							echo '<br/><img src="images/defense.png" width="60" height="60" border="0" style="float:left;" /><b>' . $criatura1->getNome() . '</b> atacou mas <b>' . $criatura2->getNome() . '</b> defendeu (' . $ataque . ' <i>vs</i> ' . $defesa . ')';
 
 						echo '<br/> Vida de <b>' . $criatura1->getNome() . '</b>: ' . $criatura1->getVida();
 						echo '<br/> Vida de <b>' . $criatura2->getNome() . '</b>: ' . $criatura2->getVida();
@@ -108,8 +108,8 @@ confronto.
 						$flag = 1; // Altera a flag para a próxima criatura na próxima rodada
 
 						// Efetua o confronto
-						$ataque = $criatura2->atacar();
-						$defesa = $criatura1->defender();
+						$ataque = (float)$criatura2->atacar();
+						$defesa = (float)$criatura1->defender();
 						
 						// Se o ataque da criatura 2 é mais forte que a defesa da criatura 1
 						if ($ataque > $defesa) {
@@ -120,7 +120,7 @@ confronto.
 							
 						// Se a defesa da criatura 1 é mais forte que o ataque da criatura 2
 						} else
-							echo '<br/><img src="images/defense.png" width="60" height="60" border="0" style="float:left;" /><b>' . $criatura2->getNome() . '</b> atacou mas <b>' . $criatura1->getNome() . '</b> defendeu (' . $defesa . ' <i>vs</i> ' . $ataque . ')';
+							echo '<br/><img src="images/defense.png" width="60" height="60" border="0" style="float:left;" /><b>' . $criatura2->getNome() . '</b> atacou mas <b>' . $criatura1->getNome() . '</b> defendeu (' . $ataque . ' <i>vs</i> ' . $defesa . ')';
 
 						echo '<br/> Vida de <b>' . $criatura1->getNome() . '</b>: ' . $criatura1->getVida();
 						echo '<br/> Vida de <b>' . $criatura2->getNome() . '</b>: ' . $criatura2->getVida();
