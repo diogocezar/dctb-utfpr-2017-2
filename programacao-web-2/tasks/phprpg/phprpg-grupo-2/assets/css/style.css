@@ -1,3 +1,6 @@
+
+
+
 body{
 	margin: 0 auto;
 	font-family: 'Fredoka One', cursive;
@@ -28,7 +31,7 @@ a{
 	text-align: center;
 }
 
-#initial button{
+#btnInitial{
 	position: absolute;
 	font-size: 0.8em;
 	color: white;
@@ -44,7 +47,7 @@ a{
 	opacity: 0.7;
 }
 
-#initial button:hover{
+#btnInitial:hover{
 	opacity: 1.0;
 }
 
@@ -128,12 +131,13 @@ a{
 } 
 
 #combat{
-	display: none;
+	display: block;
 	position: relative;
 	float: left;
 	width: 100%;
-	background-color: #585840;
-	text-align: center;
+	background-color: #4d4d45;
+/*	#585840;
+*/	text-align: center;
 }
 
 #gradientCombat{
@@ -145,15 +149,34 @@ a{
 	background-image: linear-gradient(to bottom, #000000, transparent);
 }
 
-#combat p{
+#combp{
 	position: relative;
-	text-align: center;
-	display: block;
-	font-size: 2rem;
-	color: #FFFFFF;
-	margin: 0 0 7% 0;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin: 0 0 7% 0;
+}
+
+#combat .front{
+	background-color: #DCDCDC;
 }
 
 .contra{
 	font-size: 5rem;
 }
+
+hr{ /*linhas*/
+  border-color:#969696;
+  box-sizing: border-box;
+  width:50%;  
+}
+
+#round{
+	text-align: center;
+	align-items: center;
+	width: 100%;
+}
+
+
+
