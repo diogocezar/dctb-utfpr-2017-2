@@ -1,11 +1,9 @@
 <?php
-	interface class Generica{
+	interface  Generica{
 		
-		public function __toString(){
-			
-		}
-		public function __call(){
-			
-		}
+		public function __toString();
+		
+
+		//public function __call();
 	}
 ?>
