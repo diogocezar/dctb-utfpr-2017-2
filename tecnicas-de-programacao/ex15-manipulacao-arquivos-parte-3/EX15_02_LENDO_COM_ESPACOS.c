@@ -9,7 +9,7 @@ int main(){
         printf("Erro ao abrir o arquivo.\n");
         return 1;
     }
-    while (fscanf(file, "%[^;];%[^\n]", data, nome) == 2){
+    while (fscanf(file, "%[^;];%[^\n]\n", data, nome) == 2){
         printf("%s\n%s\n\n", data, nome);
     }
     fclose(file);
