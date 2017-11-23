@@ -1,0 +1,12 @@
+<%- contentFor('body') %>
+<div class="jumbotron text-center">
+    <h1>Products</h1>
+    <div class="row">
+        <% for (item of itens) { %>
+            <div class="col-sm-4">
+                <h2><%= item.name %></h2>
+                <p><%= item.value %></p>
+            </div>
+        <% } %>
+    </div>
+</div>
