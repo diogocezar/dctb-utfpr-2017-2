@@ -39,7 +39,13 @@ const Server = {
 			}];
 			res.render('pages/index', {
 				itens: itens
-			})
+			});
+		});
+
+		Server.app.post('/data', (req, res) => {
+			res.render('pages/return', {
+				data: req.body.data
+			});
 		});
 	}
 }
