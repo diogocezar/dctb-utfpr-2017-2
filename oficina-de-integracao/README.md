@@ -17,6 +17,7 @@ Email: diogoc@utfpr.edu.br
 7. [Dicas](#dicas)
 8. [Instruções](#instruções)
 9. [GitHub](https://github.com/diogocezar/dctb-utfpr-2017-2/tree/master/oficina-de-integracao/github)
+10. [FeedBack](#feedback)
 
 # Objetivos
 
@@ -300,3 +301,47 @@ As dicas são gerais e se aplicam para todos os grupos.
 	+ Referências para justificar as tecnologias;
 
 7. Preparem os links para o preenchimento desta planilha: https://docs.google.com/spreadsheets/d/1MXHORrGllaMVDStkU1xGJJMMGLOWAX1YfhYWqFkmi5s/edit#gid=762115179
+
+# Feedback
+
+Aqui estão os FeedBacks por parte do professor com relação aos grupos.
+
+## Grupo 1
+
+O grupo apresentou uma grande evolução durante todo o período do desenvolvimento do trabalho. Novas tecnologias impactaram na curva de apendizagem, mas é notório que houve um empenho e dedicação do grupo. Um ponto positivo foi a utilização de novas tecnologias, que estão emergente no mercado de trabalho. Considero que toda a experiência e dedicação serão fundamentais para a construção de profissionais sólidos e prontos para o mercado de trabalho. A grande evolução notada na equipe foi justamente pelo fato de se adaptarem a uma tecnologia que nunca havia sido trabalhada, um cenário muito recorrente no mercado de trabalho.
+
+Parabéns e continuem assim!
+
+## Grupo 2
+
+Acredito que o grupo poderia se dedicado mais ao projeto como um todo. A documentação final deixou muito a desejar mesmo com todas as correções apontadas em outros momentos pelo professor. Na apresentação para a turma não foi possível observar o sistema funcionando, apenas as telas do sistema.
+
+Poucas telas foram implementadas e por esse motivo não foi suficiente baseado na proposta do sistema.
+
+Um sistema para gerenciamento de concursos deve, de fato pelo menos apresentar uma tela na qual exista alguma interação entre um concurso e o usuário cadastrado.
+
+O que notei na análise dos códigos foi que o sistema não apresenta nenhuma interação de fato. Apenas o cadastro de Candidatos e Instituição, mas onde está a funcionalidade do sistema? O que ele faz de fato?
+
+**IMPORTANTE**
+
+A equipe deverá apresentar melhorias no sistema até o dia 08/12/2017 como forma de recuperação, pois não foi suficiente para obter uma nota satisfatória na disciplina.
+
+## Grupo 3
+
+Apesar da implementação sem a estrutura MVC sugerida pelo professor, o trabalho apresenta-se regular. A documentação final deixou bastante a desejar, principalmente por não terem sido consideradas as correções sugeridas em outros momentos.
+
+Deu para notar o empenho dos alunos para apresentar algo funcional, e que de fato fosse próximo de um sistema que contemplasse as necessidades do mundo real.
+
+## Grupo 4
+
+Entendo os problemas apresentados pelo grupo, mas não conseguiram apresentar na data limite o projeto e documentação.
+
+**IMPORTANTE**
+
+Como forma de recuperação, a equipe poderá apresentar o sistema e documentação até o dia 08/12/2017. As entregas não foram suficientes para obter uma nota satisfatória na disciplina.
+
+## Grupo 5
+
+Notou-se a dedicação dos integrantes do grupo, porém correções apontadas nas entregas anteriores não foram aplicadas. No documento escrito, faltou um pouco de embasamento teórico para defender a ideia do aplicativo. Algumas explicações mais detalhadas nas imagens e figuras.
+
+Mas não ter entregue as funcionalidades que estavam listadas no documento contribuiram para uma nota na média da disciplina.
