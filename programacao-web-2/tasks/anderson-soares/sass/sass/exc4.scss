@@ -1,0 +1,155 @@
+$cinzabranco: #fafafa;
+$azul: #3897f0;
+$branco: #fff;
+
+
+@mixin sizing($type){
+    -webkit-box-sizing: $type;
+    -moz-box-sizing: $type;
+    box-sizing: $type;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    @include sizing(border-box);
+}
+
+html {
+    font-size: (16/16)rem;
+}
+body {
+        background: $cinzabranco;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        border: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    main {
+        width: 90%;
+        max-width: 935px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        margin: 30px 0;
+        flex-flow: column;
+
+        .avatar {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        .desc {
+            text-align: center;
+        }
+
+        h1, h2 {
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: (28/16)rem;
+        }
+
+        h2 {
+            font-size: (24/16)rem;
+        }
+
+        .links {
+            list-style: none;
+            margin: 10px 0;
+
+            li {
+                list-style: none;
+                margin: 0 20px 0 0;
+                display: inline-block;
+            }
+        }
+    }
+
+    .btn-novoestilobut{
+        padding: 4px 10px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: $azul;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .btn-follow {
+        @extend .btn-novoestilobut;
+        margin: 0 20px;
+        color: $azul;
+        &:hover {
+            background: $azul;
+            color: $branco;
+        }
+    }
+
+    .photos {
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+
+        li {
+            width: 100%;
+            margin: 20px 0;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .img-hover {
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.3);
+                transition: all 0.3s linear;
+            }
+
+            &:hover, .img-hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        header {
+            flex-flow: row;
+
+            .avatar {
+                margin: 0 40px;
+            }
+
+            .desc {
+                text-align: left;
+            }
+        }
+
+        .photos {
+            li {
+                width: 30%;
+            }
+        }
+    }
