@@ -345,3 +345,47 @@ Como forma de recuperação, a equipe poderá apresentar o sistema e documentaç
 Notou-se a dedicação dos integrantes do grupo, porém correções apontadas nas entregas anteriores não foram aplicadas. No documento escrito, faltou um pouco de embasamento teórico para defender a ideia do aplicativo. Algumas explicações mais detalhadas nas imagens e figuras.
 
 Mas não ter entregue as funcionalidades que estavam listadas no documento contribuiram para uma nota na média da disciplina.
+
+## Grupo 6
+
+A maioria das correções apontadas no texto, foram corrigidas, isso demonstra o comprometimento de toda a equipe. Quando a implementação, apesar de ser feita de forma parcial, atingiu a expectativa. O grande diferencial foi em relação a parte de automação, que apesar de uma implementação simples, trouxe um adicional para o projeto.
+
+Deu para notar que todos os integrantes foram comprometidos e que o projeto realmente foi feito com um cuidado.
+
+Parabéns e continuem assim!
+
+## Grupo 7
+
+A equipe apresentou uma curva decadente durante o semestre. No início as entregas e correções foram feitas conforme o esperado, mas a implementação deixou bastante a desejar.
+
+O aplicativo não faz a sua principal função, que é salvar e gerar os relatórios referentes as respostas das questões.
+
+Por esse motivo, a nota da última entrega fez com que a equipe alcançace um resultado apenas suficiente para passar na disciplina.
+
+## Grupo 8
+
+As correções no texto não foram implementadas conforme o esperado.
+
+Muito do que foi proposto (vide diagrama de banco de dados) não chegou a ser implementado de fato no sistema.
+
+Apesar de notar o empenho e a participação de todos os integrantes do grupo, infelizmente não conseguiram implementar tudo o que foi proposto, e por isso uma nota mediana para a entrega final.
+
+Mas, parabéns pela iniciativa e pelo aprendizado de uma nova tecnologia.
+
+## Grupo 9
+
+O grupo apresentou evolução durante todo o semestre. A utilização de tecnologias com perfil de alta produtividade fez o projeto caminhar e ser desenvolvido como o esperado.
+
+Ficou claro a inclinação de um dos integrantes para o entendimento total das tecnologias.
+
+A utilização de oAuth0 foi bem interessante para encurtar o processo de login.
+
+Quanto a aparência do software. Acredito que possa melhorar bastante na questão de usabilidade. Tudo realmente funciona, mas em muitas situações pode ficar confuso para um usuário leigo, ao navegar para realizar os seus pedidos.
+
+No geral, o grupo evoluiu muito bem.
+
+Parabéns e continuem assim.
+
+## Grupo 10
+
+O grupo não apresentou, aguardo a apresentação no dia reservado para recuperação.
